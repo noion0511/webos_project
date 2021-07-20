@@ -1,0 +1,42 @@
+0 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'serve' ]
+1 info using npm@7.20.0
+2 info using node@v14.17.3
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 0ms
+10 timing config:load:file:/home/huiju/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 7ms
+18 timing npm:load:configload Completed in 7ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing npm:load:setupLog Completed in 1ms
+21 timing npm:load:cleanupLog Completed in 1ms
+22 timing npm:load:configScope Completed in 0ms
+23 timing npm:load:projectScope Completed in 0ms
+24 timing npm:load Completed in 11ms
+25 timing config:load:flatten Completed in 2ms
+26 timing command:run-script Completed in 12ms
+27 verbose stack Error: Missing script: "serve"
+27 verbose stack
+27 verbose stack To see a list of scripts, run:
+27 verbose stack   npm run
+27 verbose stack     at RunScript.run (/usr/local/lib/node_modules/npm/lib/run-script.js:104:13)
+28 verbose cwd /home/huiju
+29 verbose Linux 5.4.0-77-generic
+30 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "serve"
+31 verbose node v14.17.3
+32 verbose npm  v7.20.0
+33 error Missing script: "serve"
+33 error
+33 error To see a list of scripts, run:
+33 error   npm run
+34 verbose exit 1

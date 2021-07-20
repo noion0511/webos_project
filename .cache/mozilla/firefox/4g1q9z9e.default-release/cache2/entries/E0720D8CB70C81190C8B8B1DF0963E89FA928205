@@ -1,0 +1,4802 @@
+webpackHotUpdate("main",{
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/Scroller.module.css":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./node_modules/@enact/ui/Scroller/Scroller.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".enact_ui_Scroller_Scroller_scroller {\n  will-change: transform;\n  /* hide native scrollbar */\n}\n.enact_ui_Scroller_Scroller_scroller::-webkit-scrollbar {\n  display: none;\n}\n", "",{"version":3,"sources":["webpack://node_modules/@enact/ui/Scroller/Scroller.module.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,0BAA0B;AAC5B;AACA;EACE,aAAa;AACf","sourcesContent":[".scroller {\n  will-change: transform;\n  /* hide native scrollbar */\n}\n.scroller::-webkit-scrollbar {\n  display: none;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"scroller": "enact_ui_Scroller_Scroller_scroller"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/UiScroller.module.css":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./node_modules/@enact/ui/Scroller/UiScroller.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".enact_ui_Scroller_UiScroller_scroller {\n  will-change: transform;\n  /* hide native scrollbar */\n}\n.enact_ui_Scroller_UiScroller_scroller::-webkit-scrollbar {\n  display: none;\n}\n", "",{"version":3,"sources":["webpack://node_modules/@enact/ui/Scroller/UiScroller.module.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,0BAA0B;AAC5B;AACA;EACE,aAAa;AACf","sourcesContent":[".scroller {\n  will-change: transform;\n  /* hide native scrollbar */\n}\n.scroller::-webkit-scrollbar {\n  display: none;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"scroller": "enact_ui_Scroller_UiScroller_scroller"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/Scrollbar.module.css":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./node_modules/@enact/ui/useScroll/Scrollbar.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".enact_ui_useScroll_Scrollbar_scrollbar {\n  background: inherit;\n  display: flex;\n  border-color: transparent;\n  visibility: visible;\n  opacity: 1;\n  flex: none;\n  transform: translateZ(0);\n  -webkit-transform: translateZ(0);\n  transition: opacity 0.1s linear;\n  -moz-transition: opacity 0.1s linear;\n  -webkit-transition: opacity 0.1s linear;\n  /* ScrollbarTrack */\n}\n.enact_ui_useScroll_Scrollbar_scrollbar.enact_ui_useScroll_Scrollbar_vertical {\n  flex-direction: column;\n}\n.enact-locale-right-to-left .enact_ui_useScroll_Scrollbar_scrollbar.enact_ui_useScroll_Scrollbar_horizontal {\n  direction: ltr;\n  transform: scaleX(-1);\n}\n.enact_ui_useScroll_Scrollbar_scrollbar.enact_ui_useScroll_Scrollbar_corner {\n  -webkit-padding-end: 0.125rem;\n}\n.enact_ui_useScroll_Scrollbar_scrollbar .enact_ui_useScroll_Scrollbar_scrollbarTrackShown {\n  opacity: 1;\n}\n", "",{"version":3,"sources":["webpack://node_modules/@enact/ui/useScroll/Scrollbar.module.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,aAAa;EACb,yBAAyB;EACzB,mBAAmB;EACnB,UAAU;EACV,UAAU;EACV,wBAAwB;EACxB,gCAAgC;EAChC,+BAA+B;EAC/B,oCAAoC;EACpC,uCAAuC;EACvC,mBAAmB;AACrB;AACA;EACE,sBAAsB;AACxB;AACA;EACE,cAAc;EACd,qBAAqB;AACvB;AACA;EACE,6BAA6B;AAC/B;AACA;EACE,UAAU;AACZ","sourcesContent":[".scrollbar {\n  background: inherit;\n  display: flex;\n  border-color: transparent;\n  visibility: visible;\n  opacity: 1;\n  flex: none;\n  transform: translateZ(0);\n  -webkit-transform: translateZ(0);\n  transition: opacity 0.1s linear;\n  -moz-transition: opacity 0.1s linear;\n  -webkit-transition: opacity 0.1s linear;\n  /* ScrollbarTrack */\n}\n.scrollbar.vertical {\n  flex-direction: column;\n}\n:global(.enact-locale-right-to-left) .scrollbar.horizontal {\n  direction: ltr;\n  transform: scaleX(-1);\n}\n.scrollbar.corner {\n  -webkit-padding-end: 0.125rem;\n}\n.scrollbar .scrollbarTrackShown {\n  opacity: 1;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"scrollbar": "enact_ui_useScroll_Scrollbar_scrollbar",
+	"vertical": "enact_ui_useScroll_Scrollbar_vertical",
+	"horizontal": "enact_ui_useScroll_Scrollbar_horizontal",
+	"corner": "enact_ui_useScroll_Scrollbar_corner",
+	"scrollbarTrackShown": "enact_ui_useScroll_Scrollbar_scrollbarTrackShown"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".enact_ui_useScroll_ScrollbarTrack_scrollbarTrack {\n  /* Set these to reasonable default values */\n  --scrollbar-thumb-size-ratio: 1;\n  --scrollbar-thumb-progress-ratio: 0;\n  --scrollbar-thumb-size: calc(100% * var(--scrollbar-thumb-size-ratio));\n  --scrollbar-thumb-progress: calc(((1 - var(--scrollbar-thumb-size-ratio)) * var(--scrollbar-thumb-progress-ratio)) * 100%);\n  position: relative;\n  width: 0.125rem;\n  height: 0.125rem;\n  margin: auto;\n  opacity: 0;\n  flex: auto;\n  -webkit-transition: opacity 100ms linear;\n  transition: opacity 100ms linear;\n  will-change: transform, top, left, right;\n}\n.enact_ui_useScroll_ScrollbarTrack_scrollbarTrack::before {\n  background: rgba(102, 102, 102, 0.75);\n  display: block;\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  will-change: transform, top, left, right;\n}\n.enact_ui_useScroll_ScrollbarTrack_scrollbarTrack.enact_ui_useScroll_ScrollbarTrack_vertical::before {\n  height: var(--scrollbar-thumb-size);\n  top: var(--scrollbar-thumb-progress);\n}\n.enact_ui_useScroll_ScrollbarTrack_scrollbarTrack:not(.enact_ui_useScroll_ScrollbarTrack_vertical)::before {\n  width: var(--scrollbar-thumb-size);\n  left: var(--scrollbar-thumb-progress);\n  top: 50%;\n  transform: translateY(-50%);\n}\n", "",{"version":3,"sources":["webpack://node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css"],"names":[],"mappings":"AAAA;EACE,2CAA2C;EAC3C,+BAA+B;EAC/B,mCAAmC;EACnC,sEAAsE;EACtE,0HAA0H;EAC1H,kBAAkB;EAClB,eAAe;EACf,gBAAgB;EAChB,YAAY;EACZ,UAAU;EACV,UAAU;EACV,wCAAwC;EACxC,gCAAgC;EAChC,wCAAwC;AAC1C;AACA;EACE,qCAAqC;EACrC,cAAc;EACd,kBAAkB;EAClB,WAAW;EACX,WAAW;EACX,YAAY;EACZ,wCAAwC;AAC1C;AACA;EACE,mCAAmC;EACnC,oCAAoC;AACtC;AACA;EACE,kCAAkC;EAClC,qCAAqC;EACrC,QAAQ;EACR,2BAA2B;AAC7B","sourcesContent":[".scrollbarTrack {\n  /* Set these to reasonable default values */\n  --scrollbar-thumb-size-ratio: 1;\n  --scrollbar-thumb-progress-ratio: 0;\n  --scrollbar-thumb-size: calc(100% * var(--scrollbar-thumb-size-ratio));\n  --scrollbar-thumb-progress: calc(((1 - var(--scrollbar-thumb-size-ratio)) * var(--scrollbar-thumb-progress-ratio)) * 100%);\n  position: relative;\n  width: 0.125rem;\n  height: 0.125rem;\n  margin: auto;\n  opacity: 0;\n  flex: auto;\n  -webkit-transition: opacity 100ms linear;\n  transition: opacity 100ms linear;\n  will-change: transform, top, left, right;\n}\n.scrollbarTrack::before {\n  background: rgba(102, 102, 102, 0.75);\n  display: block;\n  position: absolute;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  will-change: transform, top, left, right;\n}\n.scrollbarTrack.vertical::before {\n  height: var(--scrollbar-thumb-size);\n  top: var(--scrollbar-thumb-progress);\n}\n.scrollbarTrack:not(.vertical)::before {\n  width: var(--scrollbar-thumb-size);\n  left: var(--scrollbar-thumb-progress);\n  top: 50%;\n  transform: translateY(-50%);\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"scrollbarTrack": "enact_ui_useScroll_ScrollbarTrack_scrollbarTrack",
+	"vertical": "enact_ui_useScroll_ScrollbarTrack_vertical"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/useScroll.module.css":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./node_modules/@enact/ui/useScroll/useScroll.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".enact_ui_useScroll_useScroll_scrollFill {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.enact_ui_useScroll_useScroll_scroll {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  box-sizing: border-box;\n  flex-direction: column;\n}\n.enact_ui_useScroll_useScroll_scroll[data-container-muted=\"true\"]::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  content: '';\n  z-index: 10;\n}\n.enact_ui_useScroll_useScroll_scroll .enact_ui_useScroll_useScroll_scrollInnerContainer {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  min-height: 0;\n  flex: auto;\n}\n.enact_ui_useScroll_useScroll_scroll .enact_ui_useScroll_useScroll_scrollContentWrapper {\n  background: inherit;\n  position: relative;\n  overflow: hidden;\n  flex: 1 1 100%;\n}\n.enact_ui_useScroll_useScroll_scroll .enact_ui_useScroll_useScroll_scrollContentWrapperNative {\n  -webkit-overflow-scrolling: touch;\n}\n", "",{"version":3,"sources":["webpack://node_modules/@enact/ui/useScroll/useScroll.module.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;AACd;AACA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,aAAa;EACb,sBAAsB;EACtB,sBAAsB;AACxB;AACA;EACE,kBAAkB;EAClB,MAAM;EACN,QAAQ;EACR,SAAS;EACT,OAAO;EACP,WAAW;EACX,WAAW;AACb;AACA;EACE,aAAa;EACb,WAAW;EACX,YAAY;EACZ,aAAa;EACb,UAAU;AACZ;AACA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,cAAc;AAChB;AACA;EACE,iCAAiC;AACnC","sourcesContent":[".scrollFill {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.scroll {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  box-sizing: border-box;\n  flex-direction: column;\n}\n.scroll[data-container-muted=\"true\"]::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  content: '';\n  z-index: 10;\n}\n.scroll .scrollInnerContainer {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  min-height: 0;\n  flex: auto;\n}\n.scroll .scrollContentWrapper {\n  background: inherit;\n  position: relative;\n  overflow: hidden;\n  flex: 1 1 100%;\n}\n.scroll .scrollContentWrapperNative {\n  -webkit-overflow-scrolling: touch;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"scrollFill": "enact_ui_useScroll_useScroll_scrollFill",
+	"scroll": "enact_ui_useScroll_useScroll_scroll",
+	"scrollInnerContainer": "enact_ui_useScroll_useScroll_scrollInnerContainer",
+	"scrollContentWrapper": "enact_ui_useScroll_useScroll_scrollContentWrapper",
+	"scrollContentWrapperNative": "enact_ui_useScroll_useScroll_scrollContentWrapperNative"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/Scroller/Scroller.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@enact/ui/Scroller/Scroller.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "ScrollerBasic", {
+  enumerable: true,
+  get: function get() {
+    return _ScrollerBasic["default"];
+  }
+});
+Object.defineProperty(exports, "ScrollerBase", {
+  enumerable: true,
+  get: function get() {
+    return _UiScrollerBase["default"];
+  }
+});
+exports.Scroller = exports["default"] = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Resizable = __webpack_require__(/*! ../Resizable */ "./node_modules/@enact/ui/Resizable/Resizable.js");
+
+var _useScroll2 = _interopRequireDefault(__webpack_require__(/*! ../useScroll */ "./node_modules/@enact/ui/useScroll/useScroll.js"));
+
+var _Scrollbar = _interopRequireDefault(__webpack_require__(/*! ../useScroll/Scrollbar */ "./node_modules/@enact/ui/useScroll/Scrollbar.js"));
+
+var _ScrollerBasic = _interopRequireDefault(__webpack_require__(/*! ./ScrollerBasic */ "./node_modules/@enact/ui/Scroller/ScrollerBasic.js"));
+
+var _UiScrollerBase = _interopRequireDefault(__webpack_require__(/*! ./UiScrollerBase */ "./node_modules/@enact/ui/Scroller/UiScrollerBase.js"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+var nop = function nop() {};
+/**
+ * An unstyled scroller.
+ *
+ * Example:
+ * ```
+ * <Scroller>Scroll me.</Scroller>
+ * ```
+ *
+ * @class Scroller
+ * @memberof ui/Scroller
+ * @extends ui/Scroller.ScrollerBasic
+ * @ui
+ * @public
+ */
+
+
+var Scroller = function Scroller(props) {
+  // Hooks
+  var _useScroll = (0, _useScroll2["default"])(props),
+      scrollContentHandle = _useScroll.scrollContentHandle,
+      ScrollContentWrapper = _useScroll.scrollContentWrapper,
+      isHorizontalScrollbarVisible = _useScroll.isHorizontalScrollbarVisible,
+      isVerticalScrollbarVisible = _useScroll.isVerticalScrollbarVisible,
+      resizeContextProps = _useScroll.resizeContextProps,
+      scrollContainerProps = _useScroll.scrollContainerProps,
+      scrollInnerContainerProps = _useScroll.scrollInnerContainerProps,
+      scrollContentWrapperProps = _useScroll.scrollContentWrapperProps,
+      scrollContentProps = _useScroll.scrollContentProps,
+      verticalScrollbarProps = _useScroll.verticalScrollbarProps,
+      horizontalScrollbarProps = _useScroll.horizontalScrollbarProps; // Return
+
+
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_Resizable.ResizeContext.Provider, _objectSpread(_objectSpread({}, resizeContextProps), {}, {
+    children: /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", _objectSpread(_objectSpread({}, scrollContainerProps), {}, {
+      children: [/*#__PURE__*/(0, _jsxRuntime.jsxs)("div", _objectSpread(_objectSpread({}, scrollInnerContainerProps), {}, {
+        children: [/*#__PURE__*/(0, _jsxRuntime.jsx)(ScrollContentWrapper, _objectSpread(_objectSpread({}, scrollContentWrapperProps), {}, {
+          children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_ScrollerBasic["default"], _objectSpread(_objectSpread({}, scrollContentProps), {}, {
+            ref: scrollContentHandle
+          }))
+        })), isVerticalScrollbarVisible ? /*#__PURE__*/(0, _jsxRuntime.jsx)(_Scrollbar["default"], _objectSpread({}, verticalScrollbarProps)) : null]
+      })), isHorizontalScrollbarVisible ? /*#__PURE__*/(0, _jsxRuntime.jsx)(_Scrollbar["default"], _objectSpread({}, horizontalScrollbarProps)) : null]
+    }))
+  }));
+};
+
+exports.Scroller = Scroller;
+Scroller.displayName = 'ui:Scroller';
+Scroller.propTypes =
+/** @lends ui/Scroller.Scroller.prototype */
+{
+  /**
+   * A callback function that receives a reference to the `scrollTo` feature.
+   *
+   * Once received, the `scrollTo` method can be called as an imperative interface.
+   *
+   * - {position: {x, y}} - Pixel value for x and/or y position
+   * - {align} - Where the scroll area should be aligned. Values are:
+   *   `'left'`, `'right'`, `'top'`, `'bottom'`,
+   *   `'topleft'`, `'topright'`, `'bottomleft'`, and `'bottomright'`.
+   * - {node} - Node to scroll into view
+   * - {animate} - When `true`, scroll occurs with animation. When `false`, no
+   *   animation occurs.
+   * - {focus} - When `true`, attempts to focus item after scroll. Only valid when scrolling
+   *   by `node`.
+   * > Note: Only specify one of: `position`, `align`, `node`
+   *
+   * Example:
+   * ```
+   *	// If you set cbScrollTo prop like below;
+   *	cbScrollTo: (fn) => {this.scrollTo = fn;}
+   *	// You can simply call like below;
+   *	this.scrollTo({align: 'top'}); // scroll to the top
+   * ```
+   *
+   * @type {Function}
+   * @public
+   */
+  cbScrollTo: _propTypes["default"].func,
+
+  /**
+   * Direction of the scroller.
+   *
+   * Valid values are:
+   * * `'both'`,
+   * * `'horizontal'`, and
+   * * `'vertical'`.
+   *
+   * @type {String}
+   * @default 'both'
+   * @public
+   */
+  direction: _propTypes["default"].string,
+
+  /**
+   * Specifies how to show horizontal scrollbar.
+   *
+   * Valid values are:
+   * * `'auto'`,
+   * * `'visible'`, and
+   * * `'hidden'`.
+   *
+   * @type {String}
+   * @default 'auto'
+   * @public
+   */
+  horizontalScrollbar: _propTypes["default"].oneOf(['auto', 'visible', 'hidden']),
+
+  /**
+   * Prevents scroll by dragging or flicking on the scroller.
+   *
+   * @type {Boolean}
+   * @default false
+   * @private
+   */
+  noScrollByDrag: _propTypes["default"].bool,
+
+  /**
+   * Prevents scroll by wheeling on the scroller.
+   *
+   * @type {Boolean}
+   * @default false
+   * @public
+   */
+  noScrollByWheel: _propTypes["default"].bool,
+
+  /**
+   * Called when scrolling.
+   *
+   * Passes `scrollLeft`, `scrollTop`.
+   * It is not recommended to set this prop since it can cause performance degradation.
+   * Use `onScrollStart` or `onScrollStop` instead.
+   *
+   * @type {Function}
+   * @param {Object} event
+   * @param {Number} event.scrollLeft Scroll left value.
+   * @param {Number} event.scrollTop Scroll top value.
+   * @public
+   */
+  onScroll: _propTypes["default"].func,
+
+  /**
+   * Called when scroll starts.
+   *
+   * Passes `scrollLeft` and `scrollTop`.
+   *
+   * Example:
+   * ```
+   * onScrollStart = ({scrollLeft, scrollTop}) => {
+   *     // do something with scrollLeft and scrollTop
+   * }
+   *
+   * render = () => (
+   *     <Scroller
+   *         ...
+   *         onScrollStart={this.onScrollStart}
+   *         ...
+   *     />
+   * )
+   * ```
+   *
+   * @type {Function}
+   * @param {Object} event
+   * @param {Number} event.scrollLeft Scroll left value.
+   * @param {Number} event.scrollTop Scroll top value.
+   * @public
+   */
+  onScrollStart: _propTypes["default"].func,
+
+  /**
+   * Called when scroll stops.
+   *
+   * Passes `scrollLeft` and `scrollTop`.
+   *
+   * Example:
+   * ```
+   * onScrollStop = ({scrollLeft, scrollTop}) => {
+   *     // do something with scrollLeft and scrollTop
+   * }
+   *
+   * render = () => (
+   *     <Scroller
+   *         ...
+   *         onScrollStop={this.onScrollStop}
+   *         ...
+   *     />
+   * )
+   * ```
+   *
+   * @type {Function}
+   * @param {Object} event
+   * @param {Number} event.scrollLeft Scroll left value.
+   * @param {Number} event.scrollTop Scroll top value.
+   * @public
+   */
+  onScrollStop: _propTypes["default"].func,
+
+  /**
+   * Specifies overscroll effects shows on which type of inputs.
+   *
+   * @type {Object}
+   * @default {drag: false, pageKey: false, wheel: false}
+   * @private
+   */
+  overscrollEffectOn: _propTypes["default"].shape({
+    drag: _propTypes["default"].bool,
+    pageKey: _propTypes["default"].bool,
+    wheel: _propTypes["default"].bool
+  }),
+
+  /**
+   * Specifies how to scroll.
+   *
+   * Valid values are:
+   * * `'translate'`,
+   * * `'native'`.
+   *
+   * @type {String}
+   * @default 'translate'
+   * @public
+   */
+  scrollMode: _propTypes["default"].string,
+
+  /**
+   * Specifies how to show vertical scrollbar.
+   *
+   * Valid values are:
+   * * `'auto'`,
+   * * `'visible'`, and
+   * * `'hidden'`.
+   *
+   * @type {String}
+   * @default 'auto'
+   * @public
+   */
+  verticalScrollbar: _propTypes["default"].oneOf(['auto', 'visible', 'hidden'])
+};
+Scroller.defaultProps = {
+  cbScrollTo: nop,
+  direction: 'both',
+  horizontalScrollbar: 'auto',
+  noScrollByDrag: false,
+  noScrollByWheel: false,
+  onScroll: nop,
+  onScrollStart: nop,
+  onScrollStop: nop,
+  overscrollEffectOn: {
+    drag: false,
+    pageKey: false,
+    wheel: false
+  },
+  scrollMode: 'translate',
+  verticalScrollbar: 'auto'
+};
+var _default = Scroller;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/Scroller/Scroller.module.css":
+/*!*************************************************************!*\
+  !*** ./node_modules/@enact/ui/Scroller/Scroller.module.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./Scroller.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/Scroller.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./Scroller.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/Scroller.module.css",
+      function () {
+        content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./Scroller.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/Scroller.module.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/Scroller/ScrollerBasic.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@enact/ui/Scroller/ScrollerBasic.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ScrollerBasic = exports["default"] = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! @enact/core/internal/prop-types */ "./node_modules/@enact/core/internal/prop-types/prop-types.js"));
+
+var _platform = __webpack_require__(/*! @enact/core/platform */ "./node_modules/@enact/core/platform/platform.js");
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _propTypes2 = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _ScrollerModule = _interopRequireDefault(__webpack_require__(/*! ./Scroller.module.css */ "./node_modules/@enact/ui/Scroller/Scroller.module.css"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf(subClass, superClass);
+}
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+function _createSuper(Derived) {
+  var hasNativeReflectConstruct = _isNativeReflectConstruct();
+
+  return function _createSuperInternal() {
+    var Super = _getPrototypeOf(Derived),
+        result;
+
+    if (hasNativeReflectConstruct) {
+      var NewTarget = _getPrototypeOf(this).constructor;
+
+      result = Reflect.construct(Super, arguments, NewTarget);
+    } else {
+      result = Super.apply(this, arguments);
+    }
+
+    return _possibleConstructorReturn(this, result);
+  };
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (typeof call === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return _assertThisInitialized(self);
+}
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+function _isNativeReflectConstruct() {
+  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+  if (Reflect.construct.sham) return false;
+  if (typeof Proxy === "function") return true;
+
+  try {
+    Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+/**
+ * An unstyled base scroller component.
+ *
+ * @class ScrollerBasic
+ * @memberof ui/Scroller
+ * @ui
+ * @public
+ */
+
+
+var ScrollerBasic = /*#__PURE__*/function (_Component) {
+  _inherits(ScrollerBasic, _Component);
+
+  var _super = _createSuper(ScrollerBasic);
+
+  function ScrollerBasic() {
+    var _this;
+
+    _classCallCheck(this, ScrollerBasic);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _super.call.apply(_super, [this].concat(args));
+    _this.scrollBounds = {
+      clientWidth: 0,
+      clientHeight: 0,
+      scrollWidth: 0,
+      scrollHeight: 0,
+      maxLeft: 0,
+      maxTop: 0
+    };
+    _this.scrollPos = {
+      top: 0,
+      left: 0
+    };
+
+    _this.getScrollBounds = function () {
+      return _this.scrollBounds;
+    };
+
+    _this.getRtlPositionX = function (x) {
+      if (_this.props.rtl) {
+        return _platform.platform.ios || _platform.platform.safari || _platform.platform.chrome >= 85 ? -x : _this.scrollBounds.maxLeft - x;
+      }
+
+      return x;
+    };
+
+    _this.getNodePosition = function (node) {
+      var _node$getBoundingClie = node.getBoundingClientRect(),
+          nodeLeft = _node$getBoundingClie.left,
+          nodeTop = _node$getBoundingClie.top,
+          nodeHeight = _node$getBoundingClie.height,
+          nodeWidth = _node$getBoundingClie.width,
+          _this$props$scrollCon = _this.props.scrollContentRef.current.getBoundingClientRect(),
+          containerLeft = _this$props$scrollCon.left,
+          containerTop = _this$props$scrollCon.top,
+          _this$props$scrollCon2 = _this.props.scrollContentRef.current,
+          scrollLeft = _this$props$scrollCon2.scrollLeft,
+          scrollTop = _this$props$scrollCon2.scrollTop,
+          left = _this.isHorizontal() ? scrollLeft + nodeLeft - containerLeft : null,
+          top = _this.isVertical() ? scrollTop + nodeTop - containerTop : null;
+
+      return {
+        left: left,
+        top: top,
+        width: nodeWidth,
+        height: nodeHeight
+      };
+    };
+
+    _this.isVertical = function () {
+      return _this.props.direction !== 'horizontal';
+    };
+
+    _this.isHorizontal = function () {
+      return _this.props.direction !== 'vertical';
+    };
+
+    _this.syncClientSize = function () {
+      var node = _this.props.scrollContentRef.current;
+
+      if (!node) {
+        return false;
+      }
+
+      var clientWidth = node.clientWidth,
+          clientHeight = node.clientHeight,
+          _assertThisInitialize = _assertThisInitialized(_this),
+          scrollBounds = _assertThisInitialize.scrollBounds;
+
+      if (clientWidth !== scrollBounds.clientWidth || clientHeight !== scrollBounds.clientHeight) {
+        _this.calculateMetrics();
+
+        return true;
+      }
+
+      return false;
+    };
+
+    return _this;
+  }
+
+  _createClass(ScrollerBasic, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.calculateMetrics();
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      this.calculateMetrics();
+
+      if (this.props.isVerticalScrollbarVisible && !prevProps.isVerticalScrollbarVisible) {
+        this.forceUpdate();
+      }
+    }
+  }, {
+    key: "setScrollPosition",
+    value: function setScrollPosition(x, y) {
+      var node = this.props.scrollContentRef.current;
+
+      if (this.isVertical()) {
+        node.scrollTop = y;
+        this.scrollPos.top = y;
+      }
+
+      if (this.isHorizontal()) {
+        node.scrollLeft = this.getRtlPositionX(x);
+        this.scrollPos.left = x;
+      }
+    } // scrollMode 'translate'
+
+  }, {
+    key: "scrollToPosition",
+    value: function scrollToPosition(x, y) {
+      this.props.scrollContentRef.current.scrollTo(this.getRtlPositionX(x), y);
+    } // scrollMode 'native'
+
+  }, {
+    key: "didScroll",
+    value: function didScroll(x, y) {
+      this.scrollPos.left = x;
+      this.scrollPos.top = y;
+    }
+  }, {
+    key: "calculateMetrics",
+    value: function calculateMetrics() {
+      var scrollBounds = this.scrollBounds,
+          _this$props$scrollCon3 = this.props.scrollContentRef.current,
+          scrollWidth = _this$props$scrollCon3.scrollWidth,
+          scrollHeight = _this$props$scrollCon3.scrollHeight,
+          clientWidth = _this$props$scrollCon3.clientWidth,
+          clientHeight = _this$props$scrollCon3.clientHeight;
+      scrollBounds.scrollWidth = scrollWidth;
+      scrollBounds.scrollHeight = scrollHeight;
+      scrollBounds.clientWidth = clientWidth;
+      scrollBounds.clientHeight = clientHeight;
+      scrollBounds.maxLeft = Math.max(0, scrollWidth - clientWidth);
+      scrollBounds.maxTop = Math.max(0, scrollHeight - clientHeight);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          className = _this$props.className,
+          style = _this$props.style,
+          rest = _objectWithoutProperties(_this$props, ["className", "style"]),
+          mergedStyle = Object.assign({}, style, {
+        overflowX: this.isHorizontal() ? 'auto' : 'hidden',
+        overflowY: this.isVertical() ? 'auto' : 'hidden'
+      });
+
+      delete rest.cbScrollTo;
+      delete rest.direction;
+      delete rest.isHorizontalScrollbarVisible;
+      delete rest.isVerticalScrollbarVisible;
+      delete rest.rtl;
+      delete rest.scrollContainerContainsDangerously;
+      delete rest.scrollContentRef;
+      delete rest.scrollMode;
+      delete rest.setThemeScrollContentHandle;
+      return /*#__PURE__*/(0, _jsxRuntime.jsx)("div", _objectSpread(_objectSpread({}, rest), {}, {
+        className: (0, _classnames["default"])(className, _ScrollerModule["default"].scroller),
+        ref: this.props.scrollContentRef,
+        style: mergedStyle
+      }));
+    }
+  }]);
+
+  return ScrollerBasic;
+}(_react.Component);
+
+exports.ScrollerBasic = ScrollerBasic;
+ScrollerBasic.displayName = 'ui:ScrollerBasic';
+ScrollerBasic.propTypes =
+/** @lends ui/Scroller.ScrollerBasic.prototype */
+{
+  children: _propTypes2["default"].node.isRequired,
+
+  /**
+   * Callback method of scrollTo.
+   * Normally, `useScroll` should set this value.
+   *
+   * @type {Function}
+   * @private
+   */
+  cbScrollTo: _propTypes2["default"].func,
+
+  /**
+   * Disable voice control feature of component.
+   *
+   * @type {Boolean}
+   * @public
+   */
+  'data-webos-voice-disabled': _propTypes2["default"].bool,
+
+  /**
+   * Activates the component for voice control.
+   *
+   * @type {Boolean}
+   * @public
+   */
+  'data-webos-voice-focused': _propTypes2["default"].bool,
+
+  /**
+   * The voice control group label.
+   *
+   * @type {String}
+   * @public
+   */
+  'data-webos-voice-group-label': _propTypes2["default"].string,
+
+  /**
+   * Direction of the scroller.
+   *
+   * Valid values are:
+   * * `'both'`,
+   * * `'horizontal'`, and
+   * * `'vertical'`.
+   *
+   * @type {String}
+   * @default 'both'
+   * @public
+   */
+  direction: _propTypes2["default"].oneOf(['both', 'horizontal', 'vertical']),
+
+  /**
+   * Prop to check context value if Scrollbar exists or not.
+   *
+   * @type {Boolean}
+   * @private
+   */
+  isVerticalScrollbarVisible: _propTypes2["default"].bool,
+
+  /**
+   * `true` if RTL, `false` if LTR.
+   *
+   * @type {Boolean}
+   * @private
+   */
+  rtl: _propTypes2["default"].bool,
+
+  /**
+   * Ref for scroll content
+   *
+   * @type {Object|Function}
+   * @private
+   */
+  scrollContentRef: _propTypes["default"].ref
+};
+var _default = ScrollerBasic;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/Scroller/UiScroller.module.css":
+/*!***************************************************************!*\
+  !*** ./node_modules/@enact/ui/Scroller/UiScroller.module.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./UiScroller.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/UiScroller.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./UiScroller.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/UiScroller.module.css",
+      function () {
+        content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./UiScroller.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Scroller/UiScroller.module.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/Scroller/UiScrollerBase.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@enact/ui/Scroller/UiScrollerBase.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ScrollerBase = exports["default"] = void 0;
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _platform = __webpack_require__(/*! @enact/core/platform */ "./node_modules/@enact/core/platform/platform.js");
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _UiScrollerModule = _interopRequireDefault(__webpack_require__(/*! ./UiScroller.module.css */ "./node_modules/@enact/ui/Scroller/UiScroller.module.css"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf(subClass, superClass);
+}
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+function _createSuper(Derived) {
+  var hasNativeReflectConstruct = _isNativeReflectConstruct();
+
+  return function _createSuperInternal() {
+    var Super = _getPrototypeOf(Derived),
+        result;
+
+    if (hasNativeReflectConstruct) {
+      var NewTarget = _getPrototypeOf(this).constructor;
+
+      result = Reflect.construct(Super, arguments, NewTarget);
+    } else {
+      result = Super.apply(this, arguments);
+    }
+
+    return _possibleConstructorReturn(this, result);
+  };
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (typeof call === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return _assertThisInitialized(self);
+}
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+function _isNativeReflectConstruct() {
+  if (typeof Reflect === "undefined" || !Reflect.construct) return false;
+  if (Reflect.construct.sham) return false;
+  if (typeof Proxy === "function") return true;
+
+  try {
+    Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+/**
+ * An unstyled base scroller component.
+ *
+ * In most circumstances, you will want to use the Scrollable version.
+ *
+ * @class ScrollerBase
+ * @memberof ui/Scroller
+ * @ui
+ * @public
+ */
+
+
+var ScrollerBase = /*#__PURE__*/function (_Component) {
+  _inherits(ScrollerBase, _Component);
+
+  var _super = _createSuper(ScrollerBase);
+
+  function ScrollerBase(props) {
+    var _this;
+
+    _classCallCheck(this, ScrollerBase);
+
+    _this = _super.call(this, props);
+    _this.scrollBounds = {
+      clientWidth: 0,
+      clientHeight: 0,
+      scrollWidth: 0,
+      scrollHeight: 0,
+      maxLeft: 0,
+      maxTop: 0
+    };
+    _this.scrollPos = {
+      top: 0,
+      left: 0
+    };
+
+    _this.getScrollBounds = function () {
+      return _this.scrollBounds;
+    };
+
+    _this.getRtlPositionX = function (x) {
+      if (_this.props.rtl) {
+        return _platform.platform.ios || _platform.platform.safari || _platform.platform.chrome >= 85 ? -x : _this.scrollBounds.maxLeft - x;
+      }
+
+      return x;
+    };
+
+    _this.getNodePosition = function (node) {
+      var _node$getBoundingClie = node.getBoundingClientRect(),
+          nodeLeft = _node$getBoundingClie.left,
+          nodeTop = _node$getBoundingClie.top,
+          nodeHeight = _node$getBoundingClie.height,
+          nodeWidth = _node$getBoundingClie.width,
+          _this$containerRef$cu = _this.containerRef.current.getBoundingClientRect(),
+          containerLeft = _this$containerRef$cu.left,
+          containerTop = _this$containerRef$cu.top,
+          _this$containerRef$cu2 = _this.containerRef.current,
+          scrollLeft = _this$containerRef$cu2.scrollLeft,
+          scrollTop = _this$containerRef$cu2.scrollTop,
+          left = _this.isHorizontal() ? scrollLeft + nodeLeft - containerLeft : null,
+          top = _this.isVertical() ? scrollTop + nodeTop - containerTop : null;
+
+      return {
+        left: left,
+        top: top,
+        width: nodeWidth,
+        height: nodeHeight
+      };
+    };
+
+    _this.isVertical = function () {
+      return _this.props.direction !== 'horizontal';
+    };
+
+    _this.isHorizontal = function () {
+      return _this.props.direction !== 'vertical';
+    };
+
+    _this.containerRef = /*#__PURE__*/(0, _react.createRef)();
+    return _this;
+  }
+
+  _createClass(ScrollerBase, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.calculateMetrics();
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      this.calculateMetrics();
+
+      if (this.props.isVerticalScrollbarVisible && !prevProps.isVerticalScrollbarVisible) {
+        this.forceUpdate();
+      }
+    }
+  }, {
+    key: "setScrollPosition",
+    value: // for Scrollable
+    function setScrollPosition(x, y) {
+      var node = this.containerRef.current;
+
+      if (this.isVertical()) {
+        node.scrollTop = y;
+        this.scrollPos.top = y;
+      }
+
+      if (this.isHorizontal()) {
+        node.scrollLeft = this.getRtlPositionX(x);
+        this.scrollPos.left = x;
+      }
+    } // for ScrollableNative
+
+  }, {
+    key: "scrollToPosition",
+    value: function scrollToPosition(x, y) {
+      this.containerRef.current.scrollTo(this.getRtlPositionX(x), y);
+    } // for ScrollableNative
+
+  }, {
+    key: "didScroll",
+    value: function didScroll(x, y) {
+      this.scrollPos.left = x;
+      this.scrollPos.top = y;
+    }
+  }, {
+    key: "calculateMetrics",
+    value: function calculateMetrics() {
+      var scrollBounds = this.scrollBounds,
+          _this$containerRef$cu3 = this.containerRef.current,
+          scrollWidth = _this$containerRef$cu3.scrollWidth,
+          scrollHeight = _this$containerRef$cu3.scrollHeight,
+          clientWidth = _this$containerRef$cu3.clientWidth,
+          clientHeight = _this$containerRef$cu3.clientHeight;
+      scrollBounds.scrollWidth = scrollWidth;
+      scrollBounds.scrollHeight = scrollHeight;
+      scrollBounds.clientWidth = clientWidth;
+      scrollBounds.clientHeight = clientHeight;
+      scrollBounds.maxLeft = Math.max(0, scrollWidth - clientWidth);
+      scrollBounds.maxTop = Math.max(0, scrollHeight - clientHeight);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          className = _this$props.className,
+          style = _this$props.style,
+          rest = _objectWithoutProperties(_this$props, ["className", "style"]),
+          mergedStyle = Object.assign({}, style, {
+        overflowX: this.isHorizontal() ? 'auto' : 'hidden',
+        overflowY: this.isVertical() ? 'auto' : 'hidden'
+      });
+
+      delete rest.cbScrollTo;
+      delete rest.direction;
+      delete rest.isHorizontalScrollbarVisible;
+      delete rest.isVerticalScrollbarVisible;
+      delete rest.rtl;
+      return /*#__PURE__*/(0, _jsxRuntime.jsx)("div", _objectSpread(_objectSpread({}, rest), {}, {
+        className: (0, _classnames["default"])(className, _UiScrollerModule["default"].scroller),
+        ref: this.containerRef,
+        style: mergedStyle
+      }));
+    }
+  }]);
+
+  return ScrollerBase;
+}(_react.Component);
+/**
+ * A callback function that receives a reference to the `scrollTo` feature.
+ *
+ * Once received, the `scrollTo` method can be called as an imperative interface.
+ *
+ * The `scrollTo` function accepts the following parameters:
+ * - {position: {x, y}} - Pixel value for x and/or y position
+ * - {align} - Where the scroll area should be aligned. Values are:
+ *   `'left'`, `'right'`, `'top'`, `'bottom'`,
+ *   `'topleft'`, `'topright'`, `'bottomleft'`, and `'bottomright'`.
+ * - {node} - Node to scroll into view
+ * - {animate} - When `true`, scroll occurs with animation. When `false`, no
+ *   animation occurs.
+ * - {focus} - When `true`, attempts to focus item after scroll. Only valid when scrolling
+ *   by `index` or `node`.
+ * > Note: Only specify one of: `position`, `align`, `index` or `node`
+ *
+ * Example:
+ * ```
+ *	// If you set cbScrollTo prop like below;
+ *	cbScrollTo: (fn) => {this.scrollTo = fn;}
+ *	// You can simply call like below;
+ *	this.scrollTo({align: 'top'}); // scroll to the top
+ * ```
+ *
+ * @name cbScrollTo
+ * @memberof ui/Scroller.ScrollerBase.prototype
+ * @type {Function}
+ * @public
+ */
+
+/**
+ * Specifies how to show horizontal scrollbar.
+ *
+ * Valid values are:
+ * * `'auto'`,
+ * * `'visible'`, and
+ * * `'hidden'`.
+ *
+ * @name horizontalScrollbar
+ * @memberof ui/Scroller.ScrollerBase.prototype
+ * @type {String}
+ * @default 'auto'
+ * @public
+ */
+
+/**
+ * Prevents scroll by wheeling on the scroller.
+ *
+ * @name noScrollByWheel
+ * @memberof ui/Scroller.ScrollerBase.prototype
+ * @type {Boolean}
+ * @default false
+ * @public
+ */
+
+/**
+ * Called when scrolling.
+ *
+ * Passes `scrollLeft` and `scrollTop`.
+ * It is not recommended to set this prop since it can cause performance degradation.
+ * Use `onScrollStart` or `onScrollStop` instead.
+ *
+ * @name onScroll
+ * @memberof ui/Scroller.ScrollerBase.prototype
+ * @type {Function}
+ * @param {Object} event
+ * @param {Number} event.scrollLeft Scroll left value.
+ * @param {Number} event.scrollTop Scroll top value.
+ * @param {Object} event.moreInfo The object including `firstVisibleIndex` and `lastVisibleIndex` properties.
+ * @public
+ */
+
+/**
+ * Called when scroll starts.
+ *
+ * Passes `scrollLeft` and `scrollTop`.
+ *
+ * Example:
+ * ```
+ * onScrollStart = ({scrollLeft, scrollTop}) => {
+ *     // do something with scrollLeft and scrollTop
+ * }
+ *
+ * render = () => (
+ *     <Scroller
+ *         ...
+ *         onScrollStart={this.onScrollStart}
+ *         ...
+ *     />
+ * )
+ * ```
+ *
+ * @name onScrollStart
+ * @memberof ui/Scroller.ScrollerBase.prototype
+ * @type {Function}
+ * @param {Object} event
+ * @param {Number} event.scrollLeft Scroll left value.
+ * @param {Number} event.scrollTop Scroll top value.
+ * @param {Object} event.moreInfo The object including `firstVisibleIndex` and `lastVisibleIndex` properties.
+ * @public
+ */
+
+/**
+ * Called when scroll stops.
+ *
+ * Passes `scrollLeft` and `scrollTop`.
+ *
+ * Example:
+ * ```
+ * onScrollStop = ({scrollLeft, scrollTop}) => {
+ *     // do something with scrollLeft and scrollTop
+ * }
+ *
+ * render = () => (
+ *     <Scroller
+ *         ...
+ *         onScrollStop={this.onScrollStop}
+ *         ...
+ *     />
+ * )
+ * ```
+ *
+ * @name onScrollStop
+ * @memberof ui/Scroller.ScrollerBase.prototype
+ * @type {Function}
+ * @param {Object} event
+ * @param {Number} event.scrollLeft Scroll left value.
+ * @param {Number} event.scrollTop Scroll top value.
+ * @param {Object} event.moreInfo The object including `firstVisibleIndex` and `lastVisibleIndex` properties.
+ * @public
+ */
+
+/**
+ * Specifies how to show vertical scrollbar.
+ *
+ * Valid values are:
+ * * `'auto'`,
+ * * `'visible'`, and
+ * * `'hidden'`.
+ *
+ * @name verticalScrollbar
+ * @memberof ui/Scroller.ScrollerBase.prototype
+ * @type {String}
+ * @default 'auto'
+ * @public
+ */
+
+
+exports.ScrollerBase = ScrollerBase;
+ScrollerBase.displayName = 'ui:ScrollerBase';
+ScrollerBase.propTypes =
+/** @lends ui/Scroller.ScrollerBase.prototype */
+{
+  children: _propTypes["default"].node.isRequired,
+
+  /**
+   * Callback method of scrollTo.
+   * Normally, `Scrollable` should set this value.
+   *
+   * @type {Function}
+   * @private
+   */
+  cbScrollTo: _propTypes["default"].func,
+
+  /**
+   * Direction of the scroller.
+   *
+   * Valid values are:
+   * * `'both'`,
+   * * `'horizontal'`, and
+   * * `'vertical'`.
+   *
+   * @type {String}
+   * @default 'both'
+   * @public
+   */
+  direction: _propTypes["default"].oneOf(['both', 'horizontal', 'vertical']),
+
+  /**
+   * Prop to check context value if Scrollbar exists or not.
+   *
+   * @type {Boolean}
+   * @private
+   */
+  isVerticalScrollbarVisible: _propTypes["default"].bool,
+
+  /**
+   * `true` if RTL, `false` if LTR.
+   *
+   * @type {Boolean}
+   * @private
+   */
+  rtl: _propTypes["default"].bool
+};
+ScrollerBase.defaultProps = {
+  direction: 'both'
+};
+var _default = ScrollerBase;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/ScrollAnimator.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/ScrollAnimator.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ScrollAnimator = exports["default"] = void 0;
+
+var _util = __webpack_require__(/*! @enact/core/util */ "./node_modules/@enact/core/util/util.js");
+
+var _clamp = _interopRequireDefault(__webpack_require__(/*! ramda/src/clamp */ "./node_modules/ramda/src/clamp.js"));
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+var // Use eases library
+timingFunctions = {
+  'linear': function linear(source, target, duration, curTime) {
+    curTime /= duration;
+    return (target - source) * curTime + source;
+  },
+  'ease-in': function easeIn(source, target, duration, curTime) {
+    curTime /= duration;
+    return (target - source) * curTime * curTime * curTime * curTime + source;
+  },
+  'ease-out': function easeOut(source, target, duration, curTime) {
+    curTime /= duration;
+    curTime--;
+    return (target - source) * (curTime * curTime * curTime * curTime * curTime + 1) + source;
+  },
+  'ease-in-out': function easeInOut(source, target, duration, curTime) {
+    curTime /= duration / 2;
+
+    if (curTime < 1) {
+      return (target - source) / 2 * curTime * curTime * curTime * curTime + source;
+    } else {
+      curTime -= 2;
+    }
+
+    return (source - target) / 2 * (curTime * curTime * curTime * curTime - 2) + source;
+  }
+},
+    // for simulate()
+frameTime = 16.0,
+    // time for one frame
+maxVelocity = 100,
+    // speed cap
+stopVelocity = 0.04,
+    // velocity to stop
+velocityFriction = 0.95,
+    // velocity decreasing factor
+clampVelocity = (0, _clamp["default"])(-maxVelocity, maxVelocity);
+/**
+ * The class to scroll a list or a scroller with animation.
+ *
+ * @class ScrollAnimator
+ * @memberof ui/useScroll
+ * @private
+ */
+
+var ScrollAnimator = /*#__PURE__*/function () {
+  /**
+   * @param {String|null} type - Timing function type for list scroll animation.  Must be one of
+   *	`'linear'`, `'ease-in'`, `'ease-out'`, or `'ease-in-out'`, or null. If `null`, defaults to
+   *	`'ease-out'`.
+   * @constructor
+   * @memberof ui/useScroll.ScrollAnimator
+   */
+  function ScrollAnimator(type) {
+    _classCallCheck(this, ScrollAnimator);
+
+    this.rAFId = null;
+    this.type = 'ease-out';
+    this.timingFunction = timingFunctions[type || this.type];
+  }
+
+  _createClass(ScrollAnimator, [{
+    key: "simulate",
+    value: function simulate(sourceX, sourceY, velocityX, velocityY) {
+      var stepX = clampVelocity(velocityX * frameTime),
+          stepY = clampVelocity(velocityY * frameTime),
+          deltaX = 0,
+          deltaY = 0,
+          duration = 0;
+
+      do {
+        stepX *= velocityFriction;
+        stepY *= velocityFriction;
+        deltaX += stepX;
+        deltaY += stepY;
+        duration += frameTime;
+      } while (stepX * stepX + stepY * stepY > stopVelocity);
+
+      return {
+        targetX: sourceX + deltaX,
+        targetY: sourceY + deltaY,
+        duration: duration
+      };
+    }
+  }, {
+    key: "animate",
+    value: function animate(rAFCallbackFuntion) {
+      var _this = this;
+
+      var rAF = window.requestAnimationFrame,
+          startTimeStamp = (0, _util.perfNow)(),
+          fn = function fn() {
+        var // schedule next frame
+        rAFId = rAF(fn),
+            // current timestamp
+        curTimeStamp = (0, _util.perfNow)(),
+            // current time if 0 at starting position
+        curTime = curTimeStamp - startTimeStamp;
+        _this.rAFId = rAFId;
+        rAFCallbackFuntion(curTime);
+      };
+
+      this.rAFId = rAF(fn);
+    }
+  }, {
+    key: "isAnimating",
+    value: function isAnimating() {
+      return this.rAFId !== null;
+    }
+  }, {
+    key: "stop",
+    value: function stop() {
+      var cAF = window.cancelAnimationFrame;
+
+      if (this.rAFId !== null) {
+        cAF(this.rAFId);
+        this.rAFId = null;
+      }
+    }
+  }]);
+
+  return ScrollAnimator;
+}();
+
+exports.ScrollAnimator = ScrollAnimator;
+var _default = ScrollAnimator;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/Scrollbar.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/Scrollbar.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "ScrollbarTrack", {
+  enumerable: true,
+  get: function get() {
+    return _ScrollbarTrack["default"];
+  }
+});
+exports.useScrollbar = exports.ScrollbarBase = exports.Scrollbar = exports["default"] = void 0;
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _util = __webpack_require__(/*! @enact/core/util */ "./node_modules/@enact/core/util/util.js");
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
+
+var _resolution = _interopRequireDefault(__webpack_require__(/*! ../resolution */ "./node_modules/@enact/ui/resolution/index.js"));
+
+var _ScrollbarTrack = _interopRequireDefault(__webpack_require__(/*! ./ScrollbarTrack */ "./node_modules/@enact/ui/useScroll/ScrollbarTrack.js"));
+
+var _ScrollbarModule = _interopRequireDefault(__webpack_require__(/*! ./Scrollbar.module.css */ "./node_modules/@enact/ui/useScroll/Scrollbar.module.css"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+var scrollbarTrackHidingDelay = 900; // 900ms + 100ms(fade out duration) = 1000ms.
+
+var addClass = function addClass(element, className) {
+  var node = _reactDom["default"].findDOMNode(element); // eslint-disable-line react/no-find-dom-node
+
+
+  if (node) {
+    node.classList.add(className);
+  }
+};
+
+var removeClass = function removeClass(element, className) {
+  var node = _reactDom["default"].findDOMNode(element); // eslint-disable-line react/no-find-dom-node
+
+
+  if (node) {
+    node.classList.remove(className);
+  }
+};
+/*
+ * Set CSS Variable value.
+ *
+ * @method
+ * @param {Node} element - Node.
+ * @param {String} variable - CSS Variable property.
+ * @param {String} value - CSS Variable value.
+ */
+
+
+var setCSSVariable = function setCSSVariable(element, variable, value) {
+  _reactDom["default"].findDOMNode(element).style.setProperty(variable, value); // eslint-disable-line react/no-find-dom-node
+
+};
+/**
+ * A custom hook that passes scrollbar behavior information as its render prop.
+ *
+ * @class
+ * @memberof ui/useScroll
+ * @ui
+ * @private
+ */
+
+
+var useScrollbar = function useScrollbar(props) {
+  var className = props.className,
+      clientSize = props.clientSize,
+      corner = props.corner,
+      css = props.css,
+      minThumbSize = props.minThumbSize,
+      scrollbarHandle = props.scrollbarHandle,
+      vertical = props.vertical,
+      rest = _objectWithoutProperties(props, ["className", "clientSize", "corner", "css", "minThumbSize", "scrollbarHandle", "vertical"]); // Refs
+
+
+  var scrollbarContainerRef = (0, _react.useRef)();
+  var scrollbarTrackRef = (0, _react.useRef)();
+  var hideScrollbarTrackJob = (0, _react.useRef)(null);
+  hideScrollbarTrackJob.current = hideScrollbarTrackJob.current || new _util.Job(hideScrollbarTrack, scrollbarTrackHidingDelay);
+
+  function hideScrollbarTrack() {
+    removeClass(scrollbarTrackRef.current, css.scrollbarTrackShown);
+  }
+
+  (0, _react.useEffect)(function () {
+    return function () {
+      hideScrollbarTrackJob.current.stop();
+    };
+  }, []);
+
+  function getContainerRef() {
+    return scrollbarContainerRef;
+  }
+
+  function showScrollbarTrack() {
+    hideScrollbarTrackJob.current.stop();
+    addClass(scrollbarTrackRef.current, css.scrollbarTrackShown);
+  }
+
+  function startHidingScrollbarTrack() {
+    hideScrollbarTrackJob.current.start();
+  }
+
+  function update(bounds) {
+    var primaryDimension = vertical ? 'clientHeight' : 'clientWidth',
+        trackSize = clientSize ? clientSize[primaryDimension] : scrollbarContainerRef.current[primaryDimension],
+        scrollViewSize = vertical ? bounds.clientHeight : bounds.clientWidth,
+        scrollContentSize = vertical ? bounds.scrollHeight : bounds.scrollWidth,
+        scrollOrigin = vertical ? bounds.scrollTop : bounds.scrollLeft,
+        scrollbarThumbSizeRatioBase = scrollViewSize / scrollContentSize,
+        scrollbarThumbProgressRatio = scrollOrigin / (scrollContentSize - scrollViewSize),
+        scrollbarThumbSizeRatio = Math.max(_resolution["default"].scale(minThumbSize) / trackSize, Math.min(1, scrollbarThumbSizeRatioBase));
+    setCSSVariable(scrollbarTrackRef.current, '--scrollbar-thumb-size-ratio', scrollbarThumbSizeRatio);
+    setCSSVariable(scrollbarTrackRef.current, '--scrollbar-thumb-progress-ratio', scrollbarThumbProgressRatio);
+  }
+
+  if (scrollbarHandle) {
+    scrollbarHandle.current = {
+      getContainerRef: getContainerRef,
+      showScrollbarTrack: showScrollbarTrack,
+      startHidingScrollbarTrack: startHidingScrollbarTrack,
+      update: update
+    };
+  }
+
+  return {
+    restProps: rest,
+    scrollbarProps: {
+      className: (0, _classnames["default"])(className, corner ? css.corner : null, css.scrollbar, vertical ? css.vertical : css.horizontal),
+      ref: scrollbarContainerRef
+    },
+    scrollbarTrackProps: {
+      ref: scrollbarTrackRef,
+      vertical: vertical
+    }
+  };
+};
+/**
+ * An unstyled scroll bar.
+ *
+ * @class Scrollbar
+ * @memberof ui/useScroll
+ * @ui
+ * @private
+ */
+
+
+exports.useScrollbar = useScrollbar;
+var Scrollbar = /*#__PURE__*/(0, _react.memo)(function (props) {
+  var _useScrollbar = useScrollbar(props),
+      restProps = _useScrollbar.restProps,
+      scrollbarProps = _useScrollbar.scrollbarProps,
+      scrollbarTrackProps = _useScrollbar.scrollbarTrackProps;
+
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)("div", _objectSpread(_objectSpread(_objectSpread({}, restProps), scrollbarProps), {}, {
+    children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_ScrollbarTrack["default"], _objectSpread({}, scrollbarTrackProps))
+  }));
+});
+exports.ScrollbarBase = exports.Scrollbar = Scrollbar;
+Scrollbar.displayName = 'ui:Scrollbar';
+Scrollbar.propTypes =
+/** @lends ui/useScroll.Scrollbar.prototype */
+{
+  /**
+   * Client size of the container; valid values are an object that has `clientWidth` and `clientHeight`.
+   *
+   * @type {Object}
+   * @property {Number}    clientHeight    The client height of the list.
+   * @property {Number}    clientWidth    The client width of the list.
+   * @public
+   */
+  clientSize: _propTypes["default"].shape({
+    clientHeight: _propTypes["default"].number.isRequired,
+    clientWidth: _propTypes["default"].number.isRequired
+  }),
+
+  /**
+   * Adds a corner between the vertical and horizontal scrollbars.
+   *
+   * @type {Boolean}
+   * @default false
+   * @public
+   */
+  corner: _propTypes["default"].bool,
+
+  /**
+   * Customizes the component by mapping the supplied collection of CSS class names to the
+   * corresponding internal elements and states of this component.
+   *
+   * The following classes are supported:
+   *
+   * * `scrollbar` - The scrollbar component class
+   *
+   * @type {Object}
+   * @public
+   */
+  css: _propTypes["default"].object,
+
+  /**
+   * The minimum size of the thumb.
+   *
+   * This value will be scaled.
+   *
+   * @type {number}
+   * @public
+   */
+  minThumbSize: _propTypes["default"].number,
+
+  /**
+   * If `true`, the scrollbar will be oriented vertically.
+   *
+   * @type {Boolean}
+   * @default true
+   * @public
+   */
+  vertical: _propTypes["default"].bool
+};
+Scrollbar.defaultProps = {
+  corner: false,
+  css: _ScrollbarModule["default"],
+  minThumbSize: 18,
+  vertical: true
+};
+var _default = Scrollbar;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/Scrollbar.module.css":
+/*!***************************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/Scrollbar.module.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./Scrollbar.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/Scrollbar.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./Scrollbar.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/Scrollbar.module.css",
+      function () {
+        content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./Scrollbar.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/Scrollbar.module.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/ScrollbarTrack.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/ScrollbarTrack.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ScrollbarTrackBase = exports.ScrollbarTrack = exports["default"] = void 0;
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _ScrollbarTrackModule = _interopRequireDefault(__webpack_require__(/*! ./ScrollbarTrack.module.css */ "./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+/**
+ * An unstyled scroll track without any behavior.
+ *
+ * @function ScrollbarTrack
+ * @memberof ui/useScroll
+ * @ui
+ * @private
+ */
+
+
+var ScrollbarTrack = /*#__PURE__*/(0, _react.forwardRef)(function (props, ref) {
+  var vertical = props.vertical,
+      rest = _objectWithoutProperties(props, ["vertical"]),
+      className = (0, _classnames["default"])(_ScrollbarTrackModule["default"].scrollbarTrack, vertical ? _ScrollbarTrackModule["default"].vertical : null);
+
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)("div", _objectSpread(_objectSpread({}, rest), {}, {
+    className: className,
+    ref: ref
+  }));
+});
+exports.ScrollbarTrackBase = exports.ScrollbarTrack = ScrollbarTrack;
+ScrollbarTrack.displayName = 'ui:ScrollbarTrack';
+ScrollbarTrack.propTypes =
+/** @lends ui/useScroll.ScrollbarTrack.prototype */
+{
+  /**
+   * If `true`, the scrollbar will be oriented vertically.
+   *
+   * @type {Boolean}
+   * @default true
+   * @public
+   */
+  vertical: _propTypes["default"].bool
+};
+ScrollbarTrack.defaultProps = {
+  vertical: true
+};
+var _default = ScrollbarTrack;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css":
+/*!********************************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./ScrollbarTrack.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./ScrollbarTrack.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css",
+      function () {
+        content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./ScrollbarTrack.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/ScrollbarTrack.module.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/useScroll.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/useScroll.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.useScrollBase = exports.useScroll = exports.constants = exports.assignPropertiesOf = exports["default"] = void 0;
+
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _handle = __webpack_require__(/*! @enact/core/handle */ "./node_modules/@enact/core/handle/handle.js");
+
+var _keymap = __webpack_require__(/*! @enact/core/keymap */ "./node_modules/@enact/core/keymap/index.js");
+
+var _platform = __webpack_require__(/*! @enact/core/platform */ "./node_modules/@enact/core/platform/platform.js");
+
+var _Registry = _interopRequireDefault(__webpack_require__(/*! @enact/core/internal/Registry */ "./node_modules/@enact/core/internal/Registry/Registry.js"));
+
+var _util = __webpack_require__(/*! @enact/core/util */ "./node_modules/@enact/core/util/util.js");
+
+var _clamp = _interopRequireDefault(__webpack_require__(/*! ramda/src/clamp */ "./node_modules/ramda/src/clamp.js"));
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _warning = _interopRequireDefault(__webpack_require__(/*! warning */ "./node_modules/warning/warning.js"));
+
+var _ForwardRef = _interopRequireDefault(__webpack_require__(/*! ../ForwardRef */ "./node_modules/@enact/ui/ForwardRef/ForwardRef.js"));
+
+var _Resizable = __webpack_require__(/*! ../Resizable */ "./node_modules/@enact/ui/Resizable/Resizable.js");
+
+var _resolution = _interopRequireDefault(__webpack_require__(/*! ../resolution */ "./node_modules/@enact/ui/resolution/index.js"));
+
+var _Touchable = _interopRequireDefault(__webpack_require__(/*! ../Touchable */ "./node_modules/@enact/ui/Touchable/Touchable.js"));
+
+var _ScrollAnimator = _interopRequireDefault(__webpack_require__(/*! ./ScrollAnimator */ "./node_modules/@enact/ui/useScroll/ScrollAnimator.js"));
+
+var _utilDOM = _interopRequireDefault(__webpack_require__(/*! ./utilDOM */ "./node_modules/@enact/ui/useScroll/utilDOM.js"));
+
+var _utilEvent = _interopRequireDefault(__webpack_require__(/*! ./utilEvent */ "./node_modules/@enact/ui/useScroll/utilEvent.js"));
+
+var _useScrollModule = _interopRequireDefault(__webpack_require__(/*! ./useScroll.module.css */ "./node_modules/@enact/ui/useScroll/useScroll.module.css"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function _slicedToArray(arr, i) {
+  return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
+}
+
+function _nonIterableRest() {
+  throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+
+  return arr2;
+}
+
+function _iterableToArrayLimit(arr, i) {
+  var _i = arr && (typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]);
+
+  if (_i == null) return;
+  var _arr = [];
+  var _n = true;
+  var _d = false;
+
+  var _s, _e;
+
+  try {
+    for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) {
+      _arr.push(_s.value);
+
+      if (i && _arr.length === i) break;
+    }
+  } catch (err) {
+    _d = true;
+    _e = err;
+  } finally {
+    try {
+      if (!_n && _i["return"] != null) _i["return"]();
+    } finally {
+      if (_d) throw _e;
+    }
+  }
+
+  return _arr;
+}
+
+function _arrayWithHoles(arr) {
+  if (Array.isArray(arr)) return arr;
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+var constants = {
+  animationDuration: 1000,
+  epsilon: 1,
+  flickConfig: {
+    maxDuration: null
+  },
+  isPageDown: (0, _keymap.is)('pageDown'),
+  isPageUp: (0, _keymap.is)('pageUp'),
+  nop: function nop() {},
+  overscrollDefaultRatio: 0.5,
+  overscrollTypeNone: 0,
+  overscrollTypeHold: 1,
+  overscrollTypeOnce: 2,
+  overscrollTypeDone: 9,
+  overscrollVelocityFactor: 300,
+  // scrollMode 'native'
+  paginationPageMultiplier: 0.66,
+  scrollStopWaiting: 200,
+  scrollWheelPageMultiplierForMaxPixel: 0.2 // The ratio of the maximum distance scrolled by wheel to the size of the viewport.
+
+},
+    animationDuration = constants.animationDuration,
+    epsilon = constants.epsilon,
+    flickConfig = constants.flickConfig,
+    isPageDown = constants.isPageDown,
+    isPageUp = constants.isPageUp,
+    overscrollDefaultRatio = constants.overscrollDefaultRatio,
+    overscrollTypeDone = constants.overscrollTypeDone,
+    overscrollTypeHold = constants.overscrollTypeHold,
+    overscrollTypeNone = constants.overscrollTypeNone,
+    overscrollTypeOnce = constants.overscrollTypeOnce,
+    overscrollVelocityFactor = constants.overscrollVelocityFactor,
+    paginationPageMultiplier = constants.paginationPageMultiplier,
+    scrollStopWaiting = constants.scrollStopWaiting,
+    scrollWheelPageMultiplierForMaxPixel = constants.scrollWheelPageMultiplierForMaxPixel;
+exports.constants = constants;
+var TouchableDiv = (0, _ForwardRef["default"])({
+  prop: 'componentRef'
+}, (0, _Touchable["default"])(function (_ref) {
+  var componentRef = _ref.componentRef,
+      rest = _objectWithoutProperties(_ref, ["componentRef"]);
+
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)("div", _objectSpread(_objectSpread({}, rest), {}, {
+    ref: componentRef
+  }));
+}));
+
+var useForceUpdate = function useForceUpdate() {
+  return (0, _react.useReducer)(function (x) {
+    return x + 1;
+  }, 0);
+};
+/**
+ * A custom hook that passes scrollable behavior information as its render prop.
+ *
+ * @class
+ * @memberof ui/useScroll
+ * @ui
+ * @private
+ */
+
+
+var useScrollBase = function useScrollBase(props) {
+  var childProps = props.childProps,
+      children = props.children,
+      className = props.className,
+      clientSize = props.clientSize,
+      voiceDisabled = props['data-webos-voice-disabled'],
+      voiceFocused = props['data-webos-voice-focused'],
+      voiceGroupLabel = props['data-webos-voice-group-label'],
+      assignProperties = props.assignProperties,
+      dataSize = props.dataSize,
+      direction = props.direction,
+      horizontalScrollbar = props.horizontalScrollbar,
+      horizontalScrollbarHandle = props.horizontalScrollbarHandle,
+      itemRenderer = props.itemRenderer,
+      itemSize = props.itemSize,
+      itemSizes = props.itemSizes,
+      noScrollByDrag = props.noScrollByDrag,
+      noScrollByWheel = props.noScrollByWheel,
+      overhang = props.overhang,
+      overscrollEffectOn = props.overscrollEffectOn,
+      pageScroll = props.pageScroll,
+      role = props.role,
+      rtl = props.rtl,
+      scrollContainerRef = props.scrollContainerRef,
+      scrollContentHandle = props.scrollContentHandle,
+      scrollContentRef = props.scrollContentRef,
+      scrollMode = props.scrollMode,
+      setScrollContainerHandle = props.setScrollContainerHandle,
+      snapToCenter = props.snapToCenter,
+      spacing = props.spacing,
+      spotlightContainerDisabled = props.spotlightContainerDisabled,
+      verticalScrollbar = props.verticalScrollbar,
+      verticalScrollbarHandle = props.verticalScrollbarHandle,
+      wrap = props.wrap,
+      rest = _objectWithoutProperties(props, ["childProps", "children", "className", "clientSize", "data-webos-voice-disabled", "data-webos-voice-focused", "data-webos-voice-group-label", "assignProperties", "dataSize", "direction", "horizontalScrollbar", "horizontalScrollbarHandle", "itemRenderer", "itemSize", "itemSizes", "noScrollByDrag", "noScrollByWheel", "overhang", "overscrollEffectOn", "pageScroll", "role", "rtl", "scrollContainerRef", "scrollContentHandle", "scrollContentRef", "scrollMode", "setScrollContainerHandle", "snapToCenter", "spacing", "spotlightContainerDisabled", "verticalScrollbar", "verticalScrollbarHandle", "wrap"]),
+      scrollClasses = (0, _classnames["default"])(_useScrollModule["default"].scroll, className); // The following props are the one having the same naming function in this scope.
+  // So it is better to use props[propName]
+  // instead of extracting it from the `props` and renaming it
+
+
+  delete rest.addEventListeners;
+  delete rest.applyOverscrollEffect;
+  delete rest.cbScrollTo;
+  delete rest.clearOverscrollEffect;
+  delete rest.handleResizeWindow;
+  delete rest.onFlick;
+  delete rest.onKeyDown;
+  delete rest.onMouseDown;
+  delete rest.onScroll;
+  delete rest.onScrollStart;
+  delete rest.onScrollStop;
+  delete rest.onWheel;
+  delete rest.removeEventListeners;
+  delete rest.scrollStopOnScroll; // scrollMode 'native'
+
+  delete rest.scrollTo;
+  delete rest.start; // scrollMode 'native'
+
+  delete rest.stop; // scrollMode 'translate'
+  // Mutable value and Hooks
+
+  var _useForceUpdate = useForceUpdate(),
+      _useForceUpdate2 = _slicedToArray(_useForceUpdate, 2),
+      forceUpdate = _useForceUpdate2[1];
+
+  var context = (0, _react.useContext)(_Resizable.ResizeContext);
+
+  var _useState = (0, _react.useState)(horizontalScrollbar === 'visible'),
+      _useState2 = _slicedToArray(_useState, 2),
+      isHorizontalScrollbarVisible = _useState2[0],
+      setIsHorizontalScrollbarVisible = _useState2[1];
+
+  var _useState3 = (0, _react.useState)(verticalScrollbar === 'visible'),
+      _useState4 = _slicedToArray(_useState3, 2),
+      isVerticalScrollbarVisible = _useState4[0],
+      setIsVerticalScrollbarVisible = _useState4[1];
+
+  var mutableRef = (0, _react.useRef)({
+    overscrollEnabled: !!props.applyOverscrollEffect,
+    // Enable the early bail out of repeated scrolling to the same position
+    animationInfo: null,
+    resizeRegistry: null,
+    // constants
+    pixelPerLine: 39,
+    scrollWheelMultiplierForDeltaPixel: 1.5,
+    // The ratio of wheel 'delta' units to pixels scrolled.
+    // status
+    deferScrollTo: true,
+    isScrollAnimationTargetAccumulated: false,
+    // overscroll
+    lastInputType: null,
+    overscrollStatus: {
+      horizontal: {
+        before: {
+          type: overscrollTypeNone,
+          ratio: 0
+        },
+        after: {
+          type: overscrollTypeNone,
+          ratio: 0
+        }
+      },
+      vertical: {
+        before: {
+          type: overscrollTypeNone,
+          ratio: 0
+        },
+        after: {
+          type: overscrollTypeNone,
+          ratio: 0
+        }
+      }
+    },
+    // bounds info
+    bounds: {
+      clientWidth: 0,
+      clientHeight: 0,
+      scrollWidth: 0,
+      scrollHeight: 0,
+      maxTop: 0,
+      maxLeft: 0
+    },
+    // wheel/drag/flick info
+    wheelDirection: 0,
+    isDragging: false,
+    isTouching: false,
+    // scrollMode 'native'
+    // scroll info
+    scrolling: false,
+    scrollLeft: 0,
+    scrollTop: 0,
+    scrollToInfo: null,
+    // scroll animator
+    animator: null,
+    // scroll status observer
+    observerOnScroll: [],
+    // non-declared-variable.
+    accumulatedTargetX: null,
+    accumulatedTargetY: null,
+    flickTarget: null,
+    dragStartX: null,
+    dragStartY: null,
+    scrollStopJob: null,
+    prevState: {
+      isHorizontalScrollbarVisible: isHorizontalScrollbarVisible,
+      isVerticalScrollbarVisible: isVerticalScrollbarVisible
+    }
+  });
+
+  if (mutableRef.current.animator == null) {
+    mutableRef.current.animator = new _ScrollAnimator["default"]();
+  }
+
+  (0, _react.useLayoutEffect)(function () {
+    if (setScrollContainerHandle) {
+      setScrollContainerHandle({
+        animator: mutableRef.current.animator,
+        applyOverscrollEffect: applyOverscrollEffect,
+        bounds: mutableRef.current.bounds,
+        calculateDistanceByWheel: calculateDistanceByWheel,
+        canScrollHorizontally: canScrollHorizontally,
+        canScrollVertically: canScrollVertically,
+        checkAndApplyOverscrollEffect: checkAndApplyOverscrollEffect,
+        getScrollBounds: getScrollBounds,
+
+        get isDragging() {
+          return mutableRef.current.isDragging;
+        },
+
+        set isDragging(val) {
+          mutableRef.current.isDragging = val;
+        },
+
+        get isScrollAnimationTargetAccumulated() {
+          return mutableRef.current.isScrollAnimationTargetAccumulated;
+        },
+
+        set isScrollAnimationTargetAccumulated(val) {
+          mutableRef.current.isScrollAnimationTargetAccumulated = val;
+        },
+
+        get lastInputType() {
+          return mutableRef.current.lastInputType;
+        },
+
+        set lastInputType(val) {
+          mutableRef.current.lastInputType = val;
+        },
+
+        get rtl() {
+          return rtl;
+        },
+
+        get scrollBounds() {
+          return getScrollBounds();
+        },
+
+        get scrollHeight() {
+          return mutableRef.current.bounds.scrollHeight;
+        },
+
+        get scrolling() {
+          return mutableRef.current.scrolling;
+        },
+
+        get scrollLeft() {
+          return mutableRef.current.scrollLeft;
+        },
+
+        scrollTo: scrollTo,
+        scrollToAccumulatedTarget: scrollToAccumulatedTarget,
+
+        get scrollToInfo() {
+          return mutableRef.current.scrollToInfo;
+        },
+
+        get scrollTop() {
+          return mutableRef.current.scrollTop;
+        },
+
+        setOverscrollStatus: setOverscrollStatus,
+        showScrollbarTrack: showScrollbarTrack,
+        start: start,
+        startHidingScrollbarTrack: startHidingScrollbarTrack,
+        stop: stop,
+
+        get wheelDirection() {
+          return mutableRef.current.wheelDirection;
+        },
+
+        set wheelDirection(val) {
+          mutableRef.current.wheelDirection = val;
+        }
+
+      });
+    }
+  });
+  (0, _react.useLayoutEffect)(function () {
+    if (props.cbScrollTo) {
+      props.cbScrollTo(scrollTo);
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  (0, _react.useLayoutEffect)(function () {
+    var containerRef = scrollContainerRef.current;
+
+    if (!containerRef) {
+      return;
+    }
+
+    if (typeof ResizeObserver === 'function') {
+      var resizeObserver = new ResizeObserver(function () {
+        if (scrollContentHandle.current && scrollContentHandle.current.syncClientSize) {
+          scrollContentHandle.current.syncClientSize();
+        }
+      });
+      resizeObserver.observe(containerRef);
+      return function () {
+        if (resizeObserver) {
+          resizeObserver.disconnect();
+          resizeObserver = null;
+        }
+      };
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  (0, _react.useLayoutEffect)(function () {
+    mutableRef.current.resizeRegistry.parent = context; // componentWillUnmount
+
+    return function () {
+      var _mutableRef$current = mutableRef.current,
+          animator = _mutableRef$current.animator,
+          resizeRegistry = _mutableRef$current.resizeRegistry,
+          scrolling = _mutableRef$current.scrolling,
+          scrollStopJob = _mutableRef$current.scrollStopJob; // eslint-disable-line react-hooks/exhaustive-deps
+
+      resizeRegistry.parent = null; // Before call cancelAnimationFrame, you must send scrollStop Event.
+
+      if (scrolling) {
+        forwardScrollEvent('onScrollStop', getReachedEdgeInfo());
+      }
+
+      scrollStopJob.stop(); // scrollMode 'translate' [
+
+      if (animator.isAnimating()) {
+        animator.stop();
+      } // scrollMode 'translate' ]
+
+    };
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  (0, _react.useEffect)(function () {
+    addEventListeners();
+    return function () {
+      removeEventListeners();
+    };
+  }); // scrollMode 'translate' [[
+  // TODO: consider replacing forceUpdate() by storing bounds in state rather than a non-
+  // state member.
+
+  var enqueueForceUpdate = (0, _react.useCallback)(function () {
+    scrollContentHandle.current.calculateMetrics(scrollContentHandle.current.props);
+    forceUpdate();
+  }, [forceUpdate, scrollContentHandle]);
+
+  function handleResizeWindow() {
+    var propsHandleResizeWindow = props.handleResizeWindow; // `handleSize` in `ui/resolution.ResolutionDecorator` should be executed first.
+
+    setTimeout(function () {
+      if (propsHandleResizeWindow) {
+        propsHandleResizeWindow();
+      }
+
+      if (scrollMode === 'translate') {
+        scrollTo({
+          position: {
+            x: 0,
+            y: 0
+          },
+          animate: false
+        });
+      } else {
+        scrollContentRef.current.style.scrollBehavior = null;
+        scrollContentHandle.current.scrollToPosition(0, 0);
+        scrollContentRef.current.style.scrollBehavior = 'smooth';
+      }
+
+      enqueueForceUpdate();
+    });
+  }
+
+  var handleResize = (0, _react.useCallback)(function (ev) {
+    if (ev.action === 'invalidateBounds') {
+      enqueueForceUpdate();
+    }
+  }, [enqueueForceUpdate]); // scrollMode 'translate' ]]
+
+  if (mutableRef.current.resizeRegistry == null) {
+    mutableRef.current.resizeRegistry = _Registry["default"].create(handleResize);
+  }
+
+  (0, _react.useLayoutEffect)(function () {
+    var ref = mutableRef.current;
+
+    if (scrollMode === 'translate') {
+      ref.scrollStopJob = new _util.Job(doScrollStop, scrollStopWaiting);
+    } else {
+      ref.scrollStopJob = new _util.Job(scrollStopOnScroll, scrollStopWaiting);
+    }
+
+    return function () {
+      if (ref.scrolling) {
+        ref.scrollStopJob.run();
+      }
+
+      ref.scrollStopJob.stop();
+    };
+  }, [direction, isHorizontalScrollbarVisible, isVerticalScrollbarVisible, rtl, scrollMode, spotlightContainerDisabled]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  (0, _react.useEffect)(function () {
+    var hasDataSizeChanged = scrollContentHandle.current.hasDataSizeChanged,
+        _mutableRef$current2 = mutableRef.current,
+        prevState = _mutableRef$current2.prevState,
+        resizeRegistry = _mutableRef$current2.resizeRegistry,
+        scrollToInfo = _mutableRef$current2.scrollToInfo; // Need to sync calculated client size if it is different from the real size
+
+    if (scrollContentHandle.current.syncClientSize) {
+      // If we actually synced, we need to reset scroll position.
+      if (scrollContentHandle.current.syncClientSize()) {
+        setScrollLeft(0);
+        setScrollTop(0);
+      }
+    }
+
+    clampScrollPosition(); // scrollMode 'translate'
+
+    if (hasDataSizeChanged === false && (isHorizontalScrollbarVisible && !prevState.isHorizontalScrollbarVisible || isVerticalScrollbarVisible && !prevState.isVerticalScrollbarVisible)) {
+      mutableRef.current.deferScrollTo = false;
+      updateScrollbarTrackSize();
+    } else {
+      updateScrollbars();
+    }
+
+    if (scrollToInfo !== null) {
+      if (!mutableRef.current.deferScrollTo) {
+        scrollTo(scrollToInfo);
+      }
+    } // publish container resize changes
+
+
+    var horizontal = isHorizontalScrollbarVisible !== prevState.isHorizontalScrollbarVisible;
+    var vertical = isVerticalScrollbarVisible !== prevState.isVerticalScrollbarVisible;
+
+    if (horizontal || vertical) {
+      resizeRegistry.notify({});
+    }
+  }); // scrollMode 'translate' [[
+
+  function clampScrollPosition() {
+    var bounds = getScrollBounds();
+
+    if (mutableRef.current.scrollTop > bounds.maxTop) {
+      mutableRef.current.scrollTop = bounds.maxTop;
+    }
+
+    if (mutableRef.current.scrollLeft > bounds.maxLeft) {
+      mutableRef.current.scrollLeft = bounds.maxLeft;
+    }
+  } // scrollMode 'translate' ]]
+  // drag/flick event handlers
+
+
+  function getRtlX(x) {
+    return rtl ? -x : x;
+  }
+
+  function onMouseDown(ev) {
+    if (snapToCenter) {
+      ev.preventDefault();
+    }
+
+    if ((0, _handle.forwardWithPrevent)('onMouseDown', ev, props) && !snapToCenter) {
+      stop();
+    }
+  } // scrollMode 'native' [[
+
+
+  function onTouchStart() {
+    mutableRef.current.isTouching = true;
+  } // scrollMode 'native' ]]
+
+
+  function onDragStart(ev) {
+    if (scrollMode === 'translate') {
+      if (ev.type === 'dragstart') return;
+      (0, _handle.forward)('onDragStart', ev, props);
+      stop();
+      mutableRef.current.isDragging = true;
+      mutableRef.current.dragStartX = mutableRef.current.scrollLeft + getRtlX(ev.x);
+      mutableRef.current.dragStartY = mutableRef.current.scrollTop + ev.y;
+    } else {
+      if (!mutableRef.current.isTouching) {
+        stop();
+        mutableRef.current.isDragging = true;
+      } // these values are used also for touch inputs
+
+
+      mutableRef.current.dragStartX = mutableRef.current.scrollLeft + getRtlX(ev.x);
+      mutableRef.current.dragStartY = mutableRef.current.scrollTop + ev.y;
+    }
+  }
+
+  function onDrag(ev) {
+    if (scrollMode === 'translate') {
+      if (ev.type === 'drag') {
+        return;
+      }
+
+      mutableRef.current.lastInputType = 'drag';
+      (0, _handle.forward)('onDrag', ev, props);
+      start({
+        targetX: direction === 'vertical' ? 0 : mutableRef.current.dragStartX - getRtlX(ev.x),
+        // 'horizontal' or 'both'
+        targetY: direction === 'horizontal' ? 0 : mutableRef.current.dragStartY - ev.y,
+        // 'vertical' or 'both'
+        animate: false,
+        overscrollEffect: overscrollEffectOn && overscrollEffectOn.drag
+      });
+    } else {
+      var targetX = direction === 'vertical' ? 0 : mutableRef.current.dragStartX - getRtlX(ev.x),
+          // 'horizontal' or 'both'
+      targetY = direction === 'horizontal' ? 0 : mutableRef.current.dragStartY - ev.y; // 'vertical' or 'both'
+
+      mutableRef.current.lastInputType = 'drag';
+
+      if (!mutableRef.current.isTouching) {
+        start({
+          targetX: targetX,
+          targetY: targetY,
+          animate: false,
+          overscrollEffect: overscrollEffectOn && overscrollEffectOn.drag
+        });
+      } else if (mutableRef.current.overscrollEnabled && overscrollEffectOn && overscrollEffectOn.drag) {
+        checkAndApplyOverscrollEffectOnDrag(targetX, targetY, overscrollTypeHold);
+      }
+    }
+  }
+
+  function onDragEnd(ev) {
+    if (scrollMode === 'translate') {
+      if (ev.type === 'dragend') {
+        return;
+      }
+
+      mutableRef.current.isDragging = false;
+      (0, _handle.forward)('onDragEnd', ev, props);
+
+      if (mutableRef.current.flickTarget) {
+        var _mutableRef$current$f = mutableRef.current.flickTarget,
+            targetX = _mutableRef$current$f.targetX,
+            targetY = _mutableRef$current$f.targetY,
+            duration = _mutableRef$current$f.duration;
+        mutableRef.current.lastInputType = 'drag';
+        mutableRef.current.isScrollAnimationTargetAccumulated = false;
+        start({
+          targetX: targetX,
+          targetY: targetY,
+          duration: duration,
+          overscrollEffect: overscrollEffectOn && overscrollEffectOn.drag
+        });
+      } else {
+        stop();
+      }
+
+      if (mutableRef.current.overscrollEnabled) {
+        // not check overscrollEffectOn && overscrollEffectOn.drag for safety
+        clearAllOverscrollEffects();
+      }
+
+      mutableRef.current.flickTarget = null;
+    } else {
+      mutableRef.current.isDragging = false;
+      mutableRef.current.lastInputType = 'drag';
+
+      if (mutableRef.current.flickTarget) {
+        var _mutableRef$current$f2 = mutableRef.current.flickTarget,
+            _targetX = _mutableRef$current$f2.targetX,
+            _targetY = _mutableRef$current$f2.targetY;
+
+        if (!mutableRef.current.isTouching) {
+          mutableRef.current.isScrollAnimationTargetAccumulated = false;
+          start({
+            targetX: _targetX,
+            targetY: _targetY,
+            overscrollEffect: overscrollEffectOn && overscrollEffectOn.drag
+          });
+        } else if (mutableRef.current.overscrollEnabled && overscrollEffectOn && overscrollEffectOn.drag) {
+          checkAndApplyOverscrollEffectOnDrag(_targetX, _targetY, overscrollTypeOnce);
+        }
+      } else if (!mutableRef.current.isTouching) {
+        stop();
+      }
+
+      if (mutableRef.current.overscrollEnabled) {
+        // not check overscrollEffectOn && overscrollEffectOn.drag for safety
+        clearAllOverscrollEffects();
+      }
+
+      mutableRef.current.isTouching = false;
+      mutableRef.current.flickTarget = null;
+    }
+  }
+
+  function onFlick(ev) {
+    var isVerticalFlick = ev.direction === 'vertical';
+
+    if (scrollMode === 'translate' || !mutableRef.current.isTouching) {
+      // except touch input in 'native' mode
+      mutableRef.current.flickTarget = mutableRef.current.animator.simulate(mutableRef.current.scrollLeft, mutableRef.current.scrollTop, direction !== 'vertical' && !isVerticalFlick ? getRtlX(-ev.velocityX) : 0, direction !== 'horizontal' && isVerticalFlick ? -ev.velocityY : 0);
+    } else if (mutableRef.current.overscrollEnabled && overscrollEffectOn && overscrollEffectOn.drag) {
+      // overscroll is required on touch input in 'native' mode
+      mutableRef.current.flickTarget = {
+        targetX: mutableRef.current.scrollLeft + (!isVerticalFlick ? getRtlX(-ev.velocityX) : 0) * overscrollVelocityFactor,
+        // 'horizontal' or 'both'
+        targetY: mutableRef.current.scrollTop + (isVerticalFlick ? -ev.velocityY : 0) * overscrollVelocityFactor // 'vertical' or 'both'
+
+      };
+    }
+
+    if (props.onFlick) {
+      (0, _handle.forward)('onFlick', ev, props);
+    }
+  }
+
+  function calculateDistanceByWheel(deltaMode, delta, maxPixel) {
+    if (deltaMode === 0) {
+      delta = (0, _clamp["default"])(-maxPixel, maxPixel, _resolution["default"].scale(delta * mutableRef.current.scrollWheelMultiplierForDeltaPixel));
+    } else if (deltaMode === 1) {
+      // line; firefox
+      delta = (0, _clamp["default"])(-maxPixel, maxPixel, _resolution["default"].scale(delta * mutableRef.current.pixelPerLine * mutableRef.current.scrollWheelMultiplierForDeltaPixel));
+    } else if (deltaMode === 2) {
+      // page
+      delta = delta < 0 ? -maxPixel : maxPixel;
+    }
+
+    return delta;
+  }
+  /*
+   * wheel event handler;
+   * - for horizontal scroll, supports wheel action on any children nodes since web engine cannot support this
+   * - for vertical scroll, supports wheel action on scrollbars only
+   */
+
+
+  function onWheel(ev) {
+    if (mutableRef.current.isDragging) {
+      ev.preventDefault();
+      ev.stopPropagation();
+    } else {
+      var bounds = getScrollBounds(),
+          canScrollH = canScrollHorizontally(bounds),
+          canScrollV = canScrollVertically(bounds),
+          eventDeltaMode = ev.deltaMode,
+          eventDelta = -ev.wheelDeltaY || ev.deltaY;
+      var delta = 0;
+      mutableRef.current.lastInputType = 'wheel';
+
+      if (noScrollByWheel) {
+        if (scrollMode === 'native' && canScrollV) {
+          ev.preventDefault();
+        }
+
+        return;
+      }
+
+      if (snapToCenter) {
+        if (scrollMode === 'native' && (canScrollV || canScrollH)) {
+          ev.preventDefault();
+          (0, _handle.forward)('onWheel', ev, props);
+          return;
+        }
+      }
+
+      if (scrollMode === 'translate') {
+        if (canScrollV) {
+          delta = calculateDistanceByWheel(eventDeltaMode, eventDelta, bounds.clientHeight * scrollWheelPageMultiplierForMaxPixel);
+        } else if (canScrollH) {
+          delta = calculateDistanceByWheel(eventDeltaMode, eventDelta, bounds.clientWidth * scrollWheelPageMultiplierForMaxPixel);
+        }
+
+        var dir = Math.sign(delta);
+
+        if (dir !== mutableRef.current.wheelDirection) {
+          mutableRef.current.isScrollAnimationTargetAccumulated = false;
+          mutableRef.current.wheelDirection = dir;
+        }
+
+        (0, _handle.forward)('onWheel', {
+          delta: delta,
+          horizontalScrollbarHandle: horizontalScrollbarHandle,
+          verticalScrollbarHandle: verticalScrollbarHandle
+        }, props);
+
+        if (delta !== 0) {
+          scrollToAccumulatedTarget(delta, canScrollV, overscrollEffectOn && overscrollEffectOn.wheel);
+          ev.preventDefault();
+          ev.stopPropagation();
+        }
+      } else {
+        // scrollMode 'native'
+        var overscrollEffectRequired = mutableRef.current.overscrollEnabled && overscrollEffectOn && overscrollEffectOn.wheel;
+        var needToHideScrollbarTrack = false;
+
+        if (props.onWheel) {
+          (0, _handle.forward)('onWheel', ev, props);
+          return;
+        }
+
+        showScrollbarTrack(bounds); // FIXME This routine is a temporary support for horizontal wheel scroll.
+        // FIXME If web engine supports horizontal wheel, this routine should be refined or removed.
+
+        if (canScrollV) {
+          // This routine handles wheel events on scrollbars for vertical scroll.
+          if (eventDelta < 0 && mutableRef.current.scrollTop > 0 || eventDelta > 0 && mutableRef.current.scrollTop < bounds.maxTop) {
+            // Not to check if ev.target is a descendant of a wrapped component which may have a lot of nodes in it.
+            if (horizontalScrollbarHandle.current && horizontalScrollbarHandle.current.getContainerRef && _utilDOM["default"].containsDangerously(horizontalScrollbarHandle.current.getContainerRef(), ev.target) || verticalScrollbarHandle.current && verticalScrollbarHandle.current.getContainerRef && _utilDOM["default"].containsDangerously(verticalScrollbarHandle.current.getContainerRef(), ev.target)) {
+              delta = calculateDistanceByWheel(eventDeltaMode, eventDelta, bounds.clientHeight * scrollWheelPageMultiplierForMaxPixel);
+              needToHideScrollbarTrack = !delta;
+              ev.preventDefault();
+            } else if (overscrollEffectRequired) {
+              checkAndApplyOverscrollEffect('vertical', eventDelta > 0 ? 'after' : 'before', overscrollTypeOnce);
+            }
+
+            ev.stopPropagation();
+          } else {
+            if (overscrollEffectRequired && (eventDelta < 0 && mutableRef.current.scrollTop <= 0 || eventDelta > 0 && mutableRef.current.scrollTop >= bounds.maxTop)) {
+              applyOverscrollEffect('vertical', eventDelta > 0 ? 'after' : 'before', overscrollTypeOnce);
+            }
+
+            needToHideScrollbarTrack = true;
+          }
+        } else if (canScrollH) {
+          // this routine handles wheel events on any children for horizontal scroll.
+          if (eventDelta < 0 && mutableRef.current.scrollLeft > 0 || eventDelta > 0 && mutableRef.current.scrollLeft < bounds.maxLeft) {
+            delta = calculateDistanceByWheel(eventDeltaMode, eventDelta, bounds.clientWidth * scrollWheelPageMultiplierForMaxPixel);
+            needToHideScrollbarTrack = !delta;
+            ev.preventDefault();
+            ev.stopPropagation();
+          } else {
+            if (overscrollEffectRequired && (eventDelta < 0 && mutableRef.current.scrollLeft <= 0 || eventDelta > 0 && mutableRef.current.scrollLeft >= bounds.maxLeft)) {
+              applyOverscrollEffect('horizontal', eventDelta > 0 ? 'after' : 'before', overscrollTypeOnce);
+            }
+
+            needToHideScrollbarTrack = true;
+          }
+        }
+
+        if (delta !== 0) {
+          var _dir = Math.sign(delta); // Not to accumulate scroll position if wheel direction is different from hold direction
+
+
+          if (_dir !== mutableRef.current.wheelDirection) {
+            mutableRef.current.isScrollAnimationTargetAccumulated = false;
+            mutableRef.current.wheelDirection = _dir;
+          }
+
+          scrollToAccumulatedTarget(delta, canScrollV, overscrollEffectOn && overscrollEffectOn.wheel);
+        }
+
+        if (needToHideScrollbarTrack) {
+          startHidingScrollbarTrack();
+        }
+      }
+    }
+  } // scrollMode 'translate' [[
+
+
+  function scrollByPage(keyCode) {
+    var bounds = getScrollBounds(),
+        canScrollV = canScrollVertically(bounds),
+        pageDistance = (isPageUp(keyCode) ? -1 : 1) * (canScrollV ? bounds.clientHeight : bounds.clientWidth) * paginationPageMultiplier;
+    mutableRef.current.lastInputType = 'pageKey';
+    scrollToAccumulatedTarget(pageDistance, canScrollV, overscrollEffectOn && overscrollEffectOn.pageKey);
+  } // scrollMode 'translate' ]]
+  // scrollMode 'native' [[
+
+
+  function onScroll(ev) {
+    var _ev$target = ev.target,
+        scrollLeft = _ev$target.scrollLeft,
+        scrollTop = _ev$target.scrollTop;
+    var bounds = getScrollBounds(),
+        canScrollH = canScrollHorizontally(bounds);
+
+    if (!mutableRef.current.scrolling) {
+      scrollStartOnScroll();
+    }
+
+    if (rtl && canScrollH) {
+      scrollLeft = _platform.platform.ios || _platform.platform.safari || _platform.platform.chrome >= 85 ? -scrollLeft : bounds.maxLeft - scrollLeft;
+    }
+
+    if (scrollLeft !== mutableRef.current.scrollLeft) {
+      setScrollLeft(scrollLeft);
+    }
+
+    if (scrollTop !== mutableRef.current.scrollTop) {
+      setScrollTop(scrollTop);
+    }
+
+    if (scrollContentHandle.current.didScroll) {
+      scrollContentHandle.current.didScroll(mutableRef.current.scrollLeft, mutableRef.current.scrollTop);
+    }
+
+    forwardScrollEvent('onScroll');
+    mutableRef.current.scrollStopJob.start();
+  } // scrollMode 'native' ]]
+
+
+  function onKeyDown(ev) {
+    if (scrollMode === 'translate') {
+      if (props.onKeyDown) {
+        (0, _handle.forward)('onKeyDown', ev, props);
+      } else if (isPageUp(ev.keyCode) || isPageDown(ev.keyCode)) {
+        scrollByPage(ev.keyCode);
+      }
+    } else {
+      (0, _handle.forward)('onKeyDown', ev, props);
+    }
+  }
+
+  function scrollToAccumulatedTarget(delta, vertical, overscrollEffect) {
+    if (!mutableRef.current.isScrollAnimationTargetAccumulated) {
+      mutableRef.current.accumulatedTargetX = mutableRef.current.scrollLeft;
+      mutableRef.current.accumulatedTargetY = mutableRef.current.scrollTop;
+      mutableRef.current.isScrollAnimationTargetAccumulated = true;
+    }
+
+    if (vertical) {
+      mutableRef.current.accumulatedTargetY += delta;
+    } else {
+      mutableRef.current.accumulatedTargetX += delta;
+    }
+
+    start({
+      targetX: mutableRef.current.accumulatedTargetX,
+      targetY: mutableRef.current.accumulatedTargetY,
+      overscrollEffect: overscrollEffect
+    });
+  } // overscroll effect
+
+
+  function getEdgeFromPosition(position, maxPosition) {
+    if (position <= 0) {
+      return 'before';
+    } else if (position >= maxPosition - epsilon) {
+      return 'after';
+    } else {
+      return null;
+    }
+  }
+
+  function setOverscrollStatus(orientation, edge, overscrollEffectType, ratio) {
+    var status = mutableRef.current.overscrollStatus[orientation][edge];
+    status.type = overscrollEffectType;
+    status.ratio = ratio;
+  }
+
+  function getOverscrollStatus(orientation, edge) {
+    return mutableRef.current.overscrollStatus[orientation][edge];
+  }
+
+  function calculateOverscrollRatio(orientation, position) {
+    var bounds = getScrollBounds(),
+        isVertical = orientation === 'vertical',
+        baseSize = isVertical ? bounds.clientHeight : bounds.clientWidth,
+        maxPos = bounds[isVertical ? 'maxTop' : 'maxLeft'];
+    var overDistance = 0;
+
+    if (position < 0) {
+      overDistance = -position;
+    } else if (position > maxPos) {
+      overDistance = position - maxPos;
+    } else {
+      return 0;
+    }
+
+    return Math.min(1, 2 * overDistance / baseSize);
+  }
+
+  function applyOverscrollEffect(orientation, edge, overscrollEffectType) {
+    var ratio = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : overscrollDefaultRatio;
+    props.applyOverscrollEffect(orientation, edge, overscrollEffectType, ratio);
+    setOverscrollStatus(orientation, edge, overscrollEffectType === overscrollTypeOnce ? overscrollTypeDone : overscrollEffectType, ratio);
+  }
+
+  function checkAndApplyOverscrollEffect(orientation, edge, overscrollEffectType) {
+    var ratio = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : overscrollDefaultRatio;
+    var isVertical = orientation === 'vertical',
+        curPos = isVertical ? mutableRef.current.scrollTop : mutableRef.current.scrollLeft,
+        maxPos = getScrollBounds()[isVertical ? 'maxTop' : 'maxLeft'];
+
+    if (edge === 'before' && curPos <= 0 || edge === 'after' && curPos >= maxPos - epsilon) {
+      // Already on the edge
+      applyOverscrollEffect(orientation, edge, overscrollEffectType, ratio);
+    } else {
+      setOverscrollStatus(orientation, edge, overscrollEffectType, ratio);
+    }
+  }
+
+  function clearOverscrollEffect(orientation, edge) {
+    if (getOverscrollStatus(orientation, edge).type !== overscrollTypeNone) {
+      if (props.clearOverscrollEffect) {
+        props.clearOverscrollEffect(orientation, edge);
+      } else {
+        applyOverscrollEffect(orientation, edge, overscrollTypeNone, 0);
+      }
+    }
+  }
+
+  function clearAllOverscrollEffects() {
+    ['horizontal', 'vertical'].forEach(function (orientation) {
+      ['before', 'after'].forEach(function (edge) {
+        clearOverscrollEffect(orientation, edge);
+      });
+    });
+  }
+
+  function applyOverscrollEffectOnDrag(orientation, edge, targetPosition, overscrollEffectType) {
+    if (edge) {
+      var oppositeEdge = edge === 'before' ? 'after' : 'before',
+          ratio = calculateOverscrollRatio(orientation, targetPosition);
+      applyOverscrollEffect(orientation, edge, overscrollEffectType, ratio);
+      clearOverscrollEffect(orientation, oppositeEdge);
+    } else {
+      clearOverscrollEffect(orientation, 'before');
+      clearOverscrollEffect(orientation, 'after');
+    }
+  } // scrollMode 'native' [[
+
+
+  function checkAndApplyOverscrollEffectOnDrag(targetX, targetY, overscrollEffectType) {
+    var bounds = getScrollBounds();
+
+    if (canScrollHorizontally(bounds)) {
+      applyOverscrollEffectOnDrag('horizontal', getEdgeFromPosition(targetX, bounds.maxLeft), targetX, overscrollEffectType);
+    }
+
+    if (canScrollVertically(bounds)) {
+      applyOverscrollEffectOnDrag('vertical', getEdgeFromPosition(targetY, bounds.maxTop), targetY, overscrollEffectType);
+    }
+  } // scrollMode 'native' ]]
+
+
+  function checkAndApplyOverscrollEffectOnScroll(orientation) {
+    ['before', 'after'].forEach(function (edge) {
+      var _getOverscrollStatus = getOverscrollStatus(orientation, edge),
+          ratio = _getOverscrollStatus.ratio,
+          overscrollEffectType = _getOverscrollStatus.type;
+
+      if (overscrollEffectType === overscrollTypeOnce) {
+        checkAndApplyOverscrollEffect(orientation, edge, overscrollEffectType, ratio);
+      }
+    });
+  }
+
+  function checkAndApplyOverscrollEffectOnStart(orientation, edge, targetPosition) {
+    if (mutableRef.current.isDragging) {
+      applyOverscrollEffectOnDrag(orientation, edge, targetPosition, overscrollTypeHold);
+    } else if (edge) {
+      checkAndApplyOverscrollEffect(orientation, edge, overscrollTypeOnce);
+    }
+  } // call scroll callbacks
+
+
+  var addObserverOnScroll = (0, _react.useCallback)(function (fn) {
+    var observerOnScroll = mutableRef.current.observerOnScroll;
+
+    if (typeof fn === 'function' && !observerOnScroll.includes(fn)) {
+      observerOnScroll.push(fn);
+    }
+  }, []);
+  var removeObserverOnScroll = (0, _react.useCallback)(function (fn) {
+    var observerOnScroll = mutableRef.current.observerOnScroll;
+    var index = observerOnScroll.indexOf(fn);
+
+    if (index !== -1) {
+      observerOnScroll.splice(index, 1);
+    }
+  }, []);
+
+  function forwardScrollEvent(type, reachedEdgeInfo) {
+    var data = {
+      scrollLeft: mutableRef.current.scrollLeft,
+      scrollTop: mutableRef.current.scrollTop,
+      moreInfo: getMoreInfo(),
+      reachedEdgeInfo: reachedEdgeInfo
+    };
+    (0, _handle.forward)(type, data, props);
+
+    if (type === 'onScroll') {
+      mutableRef.current.observerOnScroll.forEach(function (fn) {
+        return fn(data);
+      });
+    }
+  } // scrollMode 'native' [[
+  // call scroll callbacks and update scrollbars for native scroll
+
+
+  function scrollStartOnScroll() {
+    mutableRef.current.scrolling = true;
+    showScrollbarTrack(getScrollBounds());
+    forwardScrollEvent('onScrollStart');
+  }
+
+  function scrollStopOnScroll() {
+    if (props.scrollStopOnScroll) {
+      props.scrollStopOnScroll();
+    }
+
+    if (mutableRef.current.overscrollEnabled && !mutableRef.current.isDragging) {
+      // not check overscrollEffectOn && overscrollEffectOn for safety
+      clearAllOverscrollEffects();
+    }
+
+    mutableRef.current.lastInputType = null;
+    mutableRef.current.isScrollAnimationTargetAccumulated = false;
+    mutableRef.current.scrolling = false;
+    forwardScrollEvent('onScrollStop', getReachedEdgeInfo());
+    startHidingScrollbarTrack();
+  } // scrollMode 'native' ]]
+  // update scroll position
+
+
+  function setScrollLeft(value) {
+    var bounds = getScrollBounds();
+    mutableRef.current.scrollLeft = (0, _clamp["default"])(0, bounds.maxLeft, value);
+
+    if (mutableRef.current.overscrollEnabled && overscrollEffectOn && overscrollEffectOn[mutableRef.current.lastInputType]) {
+      checkAndApplyOverscrollEffectOnScroll('horizontal');
+    }
+
+    if (isHorizontalScrollbarVisible) {
+      updateScrollbarTrack(horizontalScrollbarHandle, bounds);
+    }
+  }
+
+  function setScrollTop(value) {
+    var bounds = getScrollBounds();
+    mutableRef.current.scrollTop = (0, _clamp["default"])(0, bounds.maxTop, value);
+
+    if (mutableRef.current.overscrollEnabled && overscrollEffectOn && overscrollEffectOn[mutableRef.current.lastInputType]) {
+      checkAndApplyOverscrollEffectOnScroll('vertical');
+    }
+
+    if (isVerticalScrollbarVisible) {
+      updateScrollbarTrack(verticalScrollbarHandle, bounds);
+    }
+  }
+
+  function getReachedEdgeInfo() {
+    var bounds = getScrollBounds(),
+        reachedEdgeInfo = {
+      bottom: false,
+      left: false,
+      right: false,
+      top: false
+    };
+
+    if (canScrollHorizontally(bounds)) {
+      var edge = getEdgeFromPosition(mutableRef.current.scrollLeft, bounds.maxLeft);
+
+      if (edge) {
+        // if edge is null, no need to check which edge is reached.
+        if (edge === 'before' && !rtl || edge === 'after' && rtl) {
+          reachedEdgeInfo.left = true;
+        } else {
+          reachedEdgeInfo.right = true;
+        }
+      }
+    }
+
+    if (canScrollVertically(bounds)) {
+      var _edge = getEdgeFromPosition(mutableRef.current.scrollTop, bounds.maxTop);
+
+      if (_edge === 'before') {
+        reachedEdgeInfo.top = true;
+      } else if (_edge === 'after') {
+        reachedEdgeInfo.bottom = true;
+      }
+    }
+
+    return reachedEdgeInfo;
+  } // scroll start/stop
+  // scrollMode 'translate' [[
+
+
+  function doScrollStop() {
+    mutableRef.current.scrolling = false;
+    forwardScrollEvent('onScrollStop', getReachedEdgeInfo());
+  } // scrollMode 'translate' ]]
+
+
+  function start(_ref2) {
+    var targetX = _ref2.targetX,
+        targetY = _ref2.targetY,
+        _ref2$animate = _ref2.animate,
+        animate = _ref2$animate === void 0 ? true : _ref2$animate,
+        _ref2$duration = _ref2.duration,
+        duration = _ref2$duration === void 0 ? animationDuration : _ref2$duration,
+        _ref2$overscrollEffec = _ref2.overscrollEffect,
+        overscrollEffect = _ref2$overscrollEffec === void 0 ? false : _ref2$overscrollEffec;
+    var _mutableRef$current3 = mutableRef.current,
+        scrollLeft = _mutableRef$current3.scrollLeft,
+        scrollTop = _mutableRef$current3.scrollTop,
+        bounds = getScrollBounds(),
+        maxLeft = bounds.maxLeft,
+        maxTop = bounds.maxTop;
+    var updatedAnimationInfo = scrollMode === 'translate' ? {
+      sourceX: scrollLeft,
+      sourceY: scrollTop,
+      targetX: targetX,
+      targetY: targetY,
+      duration: duration
+    } : {
+      targetX: targetX,
+      targetY: targetY
+    }; // bail early when scrolling to the same position
+
+    if ((scrollMode === 'translate' && mutableRef.current.animator.isAnimating() || scrollMode === 'native' && mutableRef.current.scrolling) && mutableRef.current.animationInfo && mutableRef.current.animationInfo.targetX === targetX && mutableRef.current.animationInfo.targetY === targetY) {
+      return;
+    }
+
+    mutableRef.current.animationInfo = updatedAnimationInfo;
+
+    if (scrollMode === 'translate') {
+      mutableRef.current.animator.stop();
+
+      if (!mutableRef.current.scrolling) {
+        mutableRef.current.scrolling = true;
+        forwardScrollEvent('onScrollStart');
+      }
+
+      mutableRef.current.scrollStopJob.stop();
+    }
+
+    if (Math.abs(maxLeft - targetX) < epsilon) {
+      targetX = maxLeft;
+    }
+
+    if (Math.abs(maxTop - targetY) < epsilon) {
+      targetY = maxTop;
+    }
+
+    if (mutableRef.current.overscrollEnabled && overscrollEffect) {
+      if (scrollLeft !== targetX && canScrollHorizontally(bounds)) {
+        checkAndApplyOverscrollEffectOnStart('horizontal', getEdgeFromPosition(targetX, maxLeft), targetX);
+      }
+
+      if (scrollTop !== targetY && canScrollVertically(bounds)) {
+        checkAndApplyOverscrollEffectOnStart('vertical', getEdgeFromPosition(targetY, maxTop), targetY);
+      }
+    }
+
+    if (scrollMode === 'translate') {
+      showScrollbarTrack(bounds);
+
+      if (scrollContentHandle.current && scrollContentHandle.current.setScrollPositionTarget) {
+        scrollContentHandle.current.setScrollPositionTarget(targetX, targetY);
+      }
+
+      if (animate) {
+        mutableRef.current.animator.animate(scrollAnimation(mutableRef.current.animationInfo));
+      } else {
+        scroll(targetX, targetY);
+        stop();
+      }
+    } else {
+      // scrollMode 'native'
+      if (animate) {
+        scrollContentHandle.current.scrollToPosition(targetX, targetY);
+      } else {
+        scrollContentRef.current.style.scrollBehavior = null;
+        scrollContentHandle.current.scrollToPosition(targetX, targetY);
+        scrollContentRef.current.style.scrollBehavior = 'smooth';
+      }
+
+      if (props.start) {
+        props.start(animate);
+      }
+    }
+  } // scrollMode 'translate' [[
+
+
+  function scrollAnimation(animationInfo) {
+    return function (curTime) {
+      var sourceX = animationInfo.sourceX,
+          sourceY = animationInfo.sourceY,
+          targetX = animationInfo.targetX,
+          targetY = animationInfo.targetY,
+          duration = animationInfo.duration,
+          bounds = getScrollBounds();
+
+      if (curTime < duration) {
+        var toBeContinued = false,
+            curTargetX = sourceX,
+            curTargetY = sourceY;
+
+        if (canScrollHorizontally(bounds)) {
+          curTargetX = mutableRef.current.animator.timingFunction(sourceX, targetX, duration, curTime);
+
+          if (Math.abs(curTargetX - targetX) < epsilon) {
+            curTargetX = targetX;
+          } else {
+            toBeContinued = true;
+          }
+        }
+
+        if (canScrollVertically(bounds)) {
+          curTargetY = mutableRef.current.animator.timingFunction(sourceY, targetY, duration, curTime);
+
+          if (Math.abs(curTargetY - targetY) < epsilon) {
+            curTargetY = targetY;
+          } else {
+            toBeContinued = true;
+          }
+        }
+
+        scroll(curTargetX, curTargetY);
+
+        if (!toBeContinued) {
+          stop();
+        }
+      } else {
+        scroll(targetX, targetY);
+        stop();
+      }
+    };
+  }
+
+  function scroll(left, top) {
+    if (left !== mutableRef.current.scrollLeft) {
+      setScrollLeft(left);
+    }
+
+    if (top !== mutableRef.current.scrollTop) {
+      setScrollTop(top);
+    }
+
+    scrollContentHandle.current.setScrollPosition(mutableRef.current.scrollLeft, mutableRef.current.scrollTop, rtl);
+    forwardScrollEvent('onScroll');
+  } // scrollMode 'translate' ]]
+
+
+  function stopForTranslate() {
+    mutableRef.current.animator.stop();
+    mutableRef.current.lastInputType = null;
+    mutableRef.current.isScrollAnimationTargetAccumulated = false;
+    startHidingScrollbarTrack();
+
+    if (mutableRef.current.overscrollEnabled && !mutableRef.current.isDragging) {
+      // not check overscrollEffectOn && overscrollEffectOn for safety
+      clearAllOverscrollEffects();
+    }
+
+    if (props.stop) {
+      props.stop();
+    }
+
+    if (mutableRef.current.scrolling) {
+      mutableRef.current.scrollStopJob.start();
+    }
+  }
+
+  function stopForNative() {
+    scrollContentRef.current.style.scrollBehavior = null;
+    scrollContentHandle.current.scrollToPosition(mutableRef.current.scrollLeft + (rtl ? -0.1 : 0.1), mutableRef.current.scrollTop + 0.1);
+    scrollContentRef.current.style.scrollBehavior = 'smooth';
+  }
+
+  function stop() {
+    if (scrollMode === 'translate') {
+      stopForTranslate();
+    } else {
+      stopForNative();
+    }
+  } // scrollTo API
+
+
+  function getPositionForScrollTo(opt) {
+    var bounds = getScrollBounds(),
+        canScrollH = canScrollHorizontally(bounds),
+        canScrollV = canScrollVertically(bounds);
+    var itemPos,
+        left = null,
+        top = null;
+
+    if (opt instanceof Object) {
+      if (opt.position instanceof Object) {
+        if (canScrollH) {
+          // We need '!=' to check if opt.position.x is null or undefined
+          left = opt.position.x != null ? opt.position.x : mutableRef.current.scrollLeft;
+        } else {
+          left = 0;
+        }
+
+        if (canScrollV) {
+          // We need '!=' to check if opt.position.y is null or undefined
+          top = opt.position.y != null ? opt.position.y : mutableRef.current.scrollTop;
+        } else {
+          top = 0;
+        }
+      } else if (typeof opt.align === 'string') {
+        if (canScrollH) {
+          if (opt.align.includes('left')) {
+            left = 0;
+          } else if (opt.align.includes('right')) {
+            left = bounds.maxLeft;
+          }
+        }
+
+        if (canScrollV) {
+          if (opt.align.includes('top')) {
+            top = 0;
+          } else if (opt.align.includes('bottom')) {
+            top = bounds.maxTop;
+          }
+        }
+      } else {
+        if (typeof opt.index === 'number' && typeof scrollContentHandle.current.getItemPosition === 'function') {
+          itemPos = scrollContentHandle.current.getItemPosition(opt.index, opt.stickTo, opt.offset);
+        } else if (opt.node instanceof Object) {
+          if (opt.node.nodeType === 1 && typeof scrollContentHandle.current.getNodePosition === 'function') {
+            itemPos = scrollContentHandle.current.getNodePosition(opt.node);
+          }
+        }
+
+        if (itemPos) {
+          if (canScrollH) {
+            left = itemPos.left;
+          }
+
+          if (canScrollV) {
+            top = itemPos.top;
+          }
+        }
+      }
+    }
+
+    return {
+      left: left,
+      top: top
+    };
+  }
+
+  function scrollTo(opt) {
+    if (!mutableRef.current.deferScrollTo) {
+      var _getPositionForScroll = getPositionForScrollTo(opt),
+          left = _getPositionForScroll.left,
+          top = _getPositionForScroll.top;
+
+      var targetX = left !== null ? left : mutableRef.current.scrollLeft;
+      var targetY = top !== null ? top : mutableRef.current.scrollTop;
+
+      if (props.scrollTo) {
+        props.scrollTo(opt);
+      }
+
+      mutableRef.current.scrollToInfo = null;
+
+      if (scrollMode === 'native' && scrollContentHandle.current && scrollContentHandle.current.setScrollToPositionTarget) {
+        scrollContentHandle.current.setScrollToPositionTarget(targetX, targetY);
+      }
+
+      start({
+        targetX: targetX,
+        targetY: targetY,
+        animate: opt.animate
+      });
+    } else {
+      mutableRef.current.scrollToInfo = opt;
+    }
+  }
+
+  function canScrollHorizontally(bounds) {
+    return (direction === 'horizontal' || direction === 'both') && bounds.scrollWidth > bounds.clientWidth && !isNaN(bounds.scrollWidth);
+  }
+
+  function canScrollVertically(bounds) {
+    return (direction === 'vertical' || direction === 'both') && bounds.scrollHeight > bounds.clientHeight && !isNaN(bounds.scrollHeight);
+  } // scroll bar
+
+
+  function showScrollbarTrack(bounds) {
+    if (isHorizontalScrollbarVisible && canScrollHorizontally(bounds) && horizontalScrollbarHandle.current) {
+      horizontalScrollbarHandle.current.showScrollbarTrack();
+    }
+
+    if (isVerticalScrollbarVisible && canScrollVertically(bounds) && verticalScrollbarHandle.current) {
+      verticalScrollbarHandle.current.showScrollbarTrack();
+    }
+  }
+
+  function updateScrollbarTrack(scrollbarRef, bounds) {
+    scrollbarRef.current.update(_objectSpread(_objectSpread({}, bounds), {}, {
+      scrollLeft: mutableRef.current.scrollLeft,
+      scrollTop: mutableRef.current.scrollTop
+    }));
+  }
+
+  function startHidingScrollbarTrack() {
+    if (isHorizontalScrollbarVisible && horizontalScrollbarHandle.current) {
+      horizontalScrollbarHandle.current.startHidingScrollbarTrack();
+    }
+
+    if (isVerticalScrollbarVisible && verticalScrollbarHandle.current) {
+      verticalScrollbarHandle.current.startHidingScrollbarTrack();
+    }
+  }
+
+  function updateScrollbars() {
+    var bounds = getScrollBounds(),
+        canScrollH = canScrollHorizontally(bounds),
+        canScrollV = canScrollVertically(bounds),
+        curHorizontalScrollbarVisible = horizontalScrollbar === 'auto' ? canScrollH : horizontalScrollbar === 'visible',
+        curVerticalScrollbarVisible = verticalScrollbar === 'auto' ? canScrollV : verticalScrollbar === 'visible'; // determine if we should hide or show any scrollbars
+
+    var isVisibilityChanged = isHorizontalScrollbarVisible !== curHorizontalScrollbarVisible || isVerticalScrollbarVisible !== curVerticalScrollbarVisible;
+
+    if (isVisibilityChanged) {
+      // one or both scrollbars have changed visibility
+      setIsHorizontalScrollbarVisible(curHorizontalScrollbarVisible);
+      setIsVerticalScrollbarVisible(curVerticalScrollbarVisible);
+    } else {
+      mutableRef.current.deferScrollTo = false;
+      updateScrollbarTrackSize();
+    }
+  }
+
+  function updateScrollbarTrackSize() {
+    var bounds = getScrollBounds(),
+        canScrollH = canScrollHorizontally(bounds),
+        canScrollV = canScrollVertically(bounds),
+        curHorizontalScrollbarVisible = horizontalScrollbar === 'auto' ? canScrollH : horizontalScrollbar === 'visible',
+        curVerticalScrollbarVisible = verticalScrollbar === 'auto' ? canScrollV : verticalScrollbar === 'visible';
+
+    if (curHorizontalScrollbarVisible || curVerticalScrollbarVisible) {
+      // no visibility change but need to notify whichever scrollbars are visible of the
+      // updated bounds and scroll position
+      var updatedBounds = _objectSpread(_objectSpread({}, bounds), {}, {
+        scrollLeft: mutableRef.current.scrollLeft,
+        scrollTop: mutableRef.current.scrollTop
+      });
+
+      if (curHorizontalScrollbarVisible && horizontalScrollbarHandle.current) {
+        horizontalScrollbarHandle.current.update(updatedBounds);
+      }
+
+      if (curVerticalScrollbarVisible && verticalScrollbarHandle.current) {
+        verticalScrollbarHandle.current.update(updatedBounds);
+      }
+
+      return true;
+    }
+
+    return false;
+  } // ref
+
+
+  function getScrollBounds() {
+    if (scrollContentHandle.current && typeof scrollContentHandle.current.getScrollBounds === 'function') {
+      return scrollContentHandle.current.getScrollBounds();
+    }
+  }
+
+  function getMoreInfo() {
+    if (scrollContentHandle.current && typeof scrollContentHandle.current.getMoreInfo === 'function') {
+      return scrollContentHandle.current.getMoreInfo();
+    }
+  } // FIXME setting event handlers directly to work on the V8 snapshot.
+
+
+  function addEventListeners() {
+    (0, _utilEvent["default"])('wheel').addEventListener(scrollContainerRef, onWheel);
+    (0, _utilEvent["default"])('keydown').addEventListener(scrollContainerRef, onKeyDown);
+    (0, _utilEvent["default"])('mousedown').addEventListener(scrollContainerRef, onMouseDown); // scrollMode 'native' [[
+
+    if (scrollMode === 'native' && scrollContentRef.current) {
+      (0, _utilEvent["default"])('scroll').addEventListener(scrollContentRef, onScroll, {
+        passive: true
+      });
+      scrollContentRef.current.style.scrollBehavior = 'smooth';
+    } // scrollMode 'native' ]]
+
+
+    if (props.addEventListeners) {
+      props.addEventListeners(scrollContentRef);
+    }
+
+    if (window) {
+      (0, _utilEvent["default"])('resize').addEventListener(window, handleResizeWindow);
+    }
+  } // FIXME setting event handlers directly to work on the V8 snapshot.
+
+
+  function removeEventListeners() {
+    (0, _utilEvent["default"])('wheel').removeEventListener(scrollContainerRef, onWheel);
+    (0, _utilEvent["default"])('keydown').removeEventListener(scrollContainerRef, onKeyDown);
+    (0, _utilEvent["default"])('mousedown').removeEventListener(scrollContainerRef, onMouseDown); // scrollMode 'native' [[
+
+    (0, _utilEvent["default"])('scroll').removeEventListener(scrollContentRef, onScroll, {
+      passive: true
+    }); // scrollMode 'native' ]]
+
+    if (props.removeEventListeners) {
+      props.removeEventListeners(scrollContentRef);
+    }
+
+    (0, _utilEvent["default"])('resize').removeEventListener(window, handleResizeWindow);
+  } // render
+  // scrollMode 'translate' [[
+
+
+  function handleScroll() {
+    // Prevent scroll by focus.
+    // VirtualList and VirtualGridList DO NOT receive `onscroll` event.
+    // Only Scroller could get `onscroll` event.
+    if (!mutableRef.current.animator.isAnimating() && scrollContentHandle.current && scrollContentRef.current && scrollContentHandle.current.getRtlPositionX) {
+      // For Scroller
+      scrollContentRef.current.scrollTop = mutableRef.current.scrollTop;
+      scrollContentRef.current.scrollLeft = scrollContentHandle.current.getRtlPositionX(mutableRef.current.scrollLeft);
+    }
+  } // scrollMode 'translate' ]]
+
+
+  function scrollContainerContainsDangerously(target) {
+    return _utilDOM["default"].containsDangerously(scrollContainerRef, target);
+  }
+
+  assignProperties('scrollContainerProps', _objectSpread(_objectSpread({}, rest), {}, {
+    className: [scrollClasses]
+  }));
+  assignProperties('scrollInnerContainerProps', {
+    className: [_useScrollModule["default"].scrollInnerContainer]
+  });
+  assignProperties('scrollContentWrapperProps', _objectSpread({
+    className: scrollMode === 'translate' ? [_useScrollModule["default"].scrollContentWrapper] : [_useScrollModule["default"].scrollContentWrapper, _useScrollModule["default"].scrollContentWrapperNative]
+  }, !noScrollByDrag && {
+    flickConfig: flickConfig,
+    onDrag: onDrag,
+    onDragEnd: onDragEnd,
+    onDragStart: onDragStart,
+    onFlick: onFlick,
+    onTouchStart: scrollMode === 'native' ? onTouchStart : null // scrollMode 'native'
+
+  }));
+  var voiceProps = {
+    'data-webos-voice-disabled': voiceDisabled,
+    'data-webos-voice-focused': voiceFocused,
+    'data-webos-voice-group-label': voiceGroupLabel
+  };
+  var scrollContentProps = props.itemRenderer ? // If the child component is a VirtualList
+  {
+    childProps: childProps,
+    clientSize: clientSize,
+    dataSize: dataSize,
+    itemRenderer: itemRenderer,
+    itemSize: itemSize,
+    itemSizes: itemSizes,
+    overhang: overhang,
+    pageScroll: pageScroll,
+    spacing: spacing,
+    wrap: wrap
+  } : {
+    children: children
+  };
+  assignProperties('scrollContentProps', _objectSpread(_objectSpread(_objectSpread({}, scrollContentProps), voiceProps), {}, {
+    cbScrollTo: scrollTo,
+    className: [_useScrollModule["default"].scrollFill],
+    direction: direction,
+
+    get isHorizontalScrollbarVisible() {
+      return isHorizontalScrollbarVisible;
+    },
+
+    get isVerticalScrollbarVisible() {
+      return isVerticalScrollbarVisible;
+    },
+
+    onScroll: scrollMode === 'translate' ? handleScroll : null,
+    role: role,
+    rtl: rtl,
+    scrollContainerContainsDangerously: scrollContainerContainsDangerously,
+    scrollMode: scrollMode
+  }));
+  assignProperties('verticalScrollbarProps', {
+    clientSize: clientSize,
+    disabled: !isVerticalScrollbarVisible,
+    rtl: rtl,
+    vertical: true
+  });
+  assignProperties('horizontalScrollbarProps', {
+    clientSize: clientSize,
+    corner: isVerticalScrollbarVisible,
+    disabled: !isHorizontalScrollbarVisible,
+    rtl: rtl,
+    vertical: false
+  });
+  assignProperties('resizeContextProps', {
+    value: mutableRef.current.resizeRegistry.register
+  });
+  mutableRef.current.deferScrollTo = true;
+  mutableRef.current.prevState = {
+    isHorizontalScrollbarVisible: isHorizontalScrollbarVisible,
+    isVerticalScrollbarVisible: isVerticalScrollbarVisible
+  };
+  return {
+    isHorizontalScrollbarVisible: isHorizontalScrollbarVisible,
+    isVerticalScrollbarVisible: isVerticalScrollbarVisible,
+    scrollContentWrapper: noScrollByDrag ? 'div' : TouchableDiv,
+    scrollObserver: {
+      addObserverOnScroll: addObserverOnScroll,
+      removeObserverOnScroll: removeObserverOnScroll
+    }
+  };
+};
+
+exports.useScrollBase = useScrollBase;
+
+var assignPropertiesOf = function assignPropertiesOf(instance) {
+  return function (name, properties) {
+    if (!instance[name]) {
+      instance[name] = {};
+    }
+
+    if (typeof properties === 'object') {
+      for (var property in properties) {
+        if (property === 'className') {
+           true ? (0, _warning["default"])(Array.isArray(properties.className), 'Unsupported other types for `className` prop except Array') : undefined;
+          instance[name].className = (0, _classnames["default"])(instance[name].className, properties.className);
+        } else {
+           true ? (0, _warning["default"])(!instance[name][property], 'Unsupported to push value in the same ' + property + ' prop.') : undefined; // Override the previous value.
+
+          instance[name][property] = properties[property];
+        }
+      }
+    }
+  };
+};
+
+exports.assignPropertiesOf = assignPropertiesOf;
+
+var useScroll = function useScroll(props) {
+  // Mutable value
+  var scrollContainerRef = (0, _react.useRef)({});
+  var scrollContentHandle = (0, _react.useRef)({});
+  var scrollContentRef = (0, _react.useRef)({});
+  var itemRefs = (0, _react.useRef)([]);
+  var horizontalScrollbarHandle = (0, _react.useRef)({});
+  var verticalScrollbarHandle = (0, _react.useRef)({}); // Hooks
+
+  var collectionOfProperties = {},
+      assignProperties = assignPropertiesOf(collectionOfProperties);
+
+  var _useScrollBase = useScrollBase(_objectSpread(_objectSpread({}, props), {}, {
+    assignProperties: assignProperties,
+    horizontalScrollbarHandle: horizontalScrollbarHandle,
+    scrollContainerRef: scrollContainerRef,
+    scrollContentHandle: scrollContentHandle,
+    scrollContentRef: scrollContentRef,
+    verticalScrollbarHandle: verticalScrollbarHandle
+  })),
+      scrollContentWrapper = _useScrollBase.scrollContentWrapper,
+      isHorizontalScrollbarVisible = _useScrollBase.isHorizontalScrollbarVisible,
+      isVerticalScrollbarVisible = _useScrollBase.isVerticalScrollbarVisible;
+
+  assignProperties('scrollContainerProps', {
+    ref: scrollContainerRef
+  });
+  assignProperties('scrollContentProps', _objectSpread(_objectSpread({}, props.itemRenderer ? {
+    itemRefs: itemRefs
+  } : {}), {}, {
+    scrollContentRef: scrollContentRef
+  }));
+  assignProperties('verticalScrollbarProps', {
+    scrollbarHandle: verticalScrollbarHandle
+  });
+  assignProperties('horizontalScrollbarProps', {
+    scrollbarHandle: horizontalScrollbarHandle
+  }); // Return
+
+  return _objectSpread(_objectSpread({}, collectionOfProperties), {}, {
+    scrollContentWrapper: scrollContentWrapper,
+    scrollContentHandle: scrollContentHandle,
+    isHorizontalScrollbarVisible: isHorizontalScrollbarVisible,
+    isVerticalScrollbarVisible: isVerticalScrollbarVisible
+  });
+};
+
+exports.useScroll = useScroll;
+var _default = useScroll;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/useScroll.module.css":
+/*!***************************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/useScroll.module.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./useScroll.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/useScroll.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./useScroll.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/useScroll.module.css",
+      function () {
+        content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./useScroll.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/useScroll/useScroll.module.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/utilDOM.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/utilDOM.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.utilDOM = exports["default"] = void 0;
+
+var _warning = _interopRequireDefault(__webpack_require__(/*! warning */ "./node_modules/warning/warning.js"));
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+} // At the end, wes should not use DOM APIs as well as the APIs in the `utilDOM`. If we use them, we have to try to remove them first if possible.
+
+
+var utilDOM = function () {
+  // Functions
+  function containsDangerously(ref, target) {
+    if (!target) {
+      return false;
+    } else if (ref.current) {
+       true ? (0, _warning["default"])(ref.current.contains, 'The `contains` function of the Ref is not supported.') : undefined;
+      return ref.current.contains(target);
+    } else if (ref) {
+       true ? (0, _warning["default"])(ref.contains, 'The `contains` function of the Ref is not supported.') : undefined;
+      return ref.contains(target);
+    }
+
+    return false;
+  } // TBD
+  // Need to define functions for the following DOM APIs
+  // getBoundingClientRect
+  // dataset.spotlightId
+  // getRect
+  // setAttribute
+  // removeAttribute
+  // scrollLeft
+  // scrollTop
+
+
+  function datasetDangerously() {}
+
+  function getBoundingClientRectDangerously() {}
+
+  function getRectDangerously() {}
+
+  function removeAttributeDangerously() {}
+
+  function setAttributeDangerously() {}
+
+  var scrollLeftDangerously = 0;
+  var scrollTopDangerously = 0; // Return
+
+  return {
+    containsDangerously: containsDangerously,
+    datasetDangerously: datasetDangerously,
+    getBoundingClientRectDangerously: getBoundingClientRectDangerously,
+    getRectDangerously: getRectDangerously,
+    removeAttributeDangerously: removeAttributeDangerously,
+    scrollLeftDangerously: scrollLeftDangerously,
+    scrollTopDangerously: scrollTopDangerously,
+    setAttributeDangerously: setAttributeDangerously
+  };
+}();
+
+exports.utilDOM = utilDOM;
+var _default = utilDOM;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/useScroll/utilEvent.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@enact/ui/useScroll/utilEvent.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.utilEvent = exports["default"] = void 0; // A `React.useEvent` hooks is introduced in https://github.com/facebook/react/pull/17651
+// The `useEvent` below will be replaced with the `React.useEvent` later.
+
+var utilEvent = function utilEvent(eventName) {
+  return {
+    addEventListener: function addEventListener(ref, fn, param) {
+      if (!ref) return;
+
+      if (typeof window !== 'undefined' && (ref === window || ref === document)) {
+        ref.addEventListener(eventName, fn, param);
+      } else if (ref.current) {
+        ref.current.addEventListener(eventName, fn, param);
+      } else if (ref && ref.addEventListener) {
+        ref.addEventListener(eventName, fn, param);
+      }
+    },
+    removeEventListener: function removeEventListener(ref, fn, param) {
+      if (!ref) return;
+
+      if (typeof window !== 'undefined' && (ref === window || ref === document)) {
+        ref.removeEventListener(eventName, fn, param);
+      } else if (ref.current) {
+        ref.current.removeEventListener(eventName, fn, param);
+      } else if (ref && ref.removeEventListener) {
+        ref.removeEventListener(eventName, fn, param);
+      }
+    }
+  };
+};
+
+exports.utilEvent = utilEvent;
+var _default = utilEvent;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default, App, AppBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppBase", function() { return AppBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @enact/sandstone/Panels */ "./node_modules/@enact/sandstone/Panels/index.js");
+/* harmony import */ var _enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enact/sandstone/ThemeDecorator */ "./node_modules/@enact/sandstone/ThemeDecorator/ThemeDecorator.js");
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @enact/ui/Repeater */ "./node_modules/@enact/ui/Repeater/Repeater.js");
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_Movies__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Movies */ "./src/components/Movies.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @enact/ui/Scroller */ "./node_modules/@enact/ui/Scroller/Scroller.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "/home/huiju/lgwebos/src/App/App.js";
+
+
+
+
+
+
+
+const movies = ['1', '2', '3', '4'];
+const AppBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'App',
+  render: function (props) {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+        className: props.className,
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h1", {
+            children: "Latest Movie Rankings"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 6
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3___default.a, {
+            childComponent: _components_Movies__WEBPACK_IMPORTED_MODULE_4__["movie"],
+            indexProp: "index",
+            children: movies
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 6
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h2", {
+            children: "Categories"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 23,
+            columnNumber: 6
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 5
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 4
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 4
+    }, this);
+  }
+});
+const App = _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2___default()(AppBase);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.cab31ee882f1c7db5b4d.hot-update.js.mapj[	      `ˆç“`ˆç“C5ÆÌ`ˆç“   w    O^partitionKey=%28http%2C192.168.187.128%2C8080%29,:http://192.168.187.128:8080/main.cab31ee882f1c7db5b4d.hot-update.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 171761
+ETag: W/"29ef1-2rRAjeCGtDT8Se7DFR3NML2BCAI"
+Date: Tue, 20 Jul 2021 08:48:18 GMT
+ original-response-headers X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 171761
+ETag: W/"29ef1-2rRAjeCGtDT8Se7DFR3NML2BCAI"
+Date: Tue, 20 Jul 2021 08:48:18 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+ ctid 2 uncompressed-len 0 net-response-time-onstart 7 net-response-time-onstop 12  ûÒ

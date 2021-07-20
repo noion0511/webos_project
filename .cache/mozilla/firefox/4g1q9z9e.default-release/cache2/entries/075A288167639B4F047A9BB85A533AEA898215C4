@@ -1,0 +1,815 @@
+webpackHotUpdate("main",{
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/Button/Button.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/Heading/Heading.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/Icon/Icon.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/Panels/Header.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/Panels/Panel.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/Panels/Panels.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/Popup/Popup.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/TooltipDecorator/Tooltip.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/internal/Panels/NavigationButton.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/sandstone/internal/Panels/Viewport.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/BodyText/BodyText.module.css":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./node_modules/@enact/ui/BodyText/BodyText.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".enact_ui_BodyText_BodyText_bodyText {\n  text-align: left;\n  -webkit-margin-before: 1em;\n          margin-block-start: 1em;\n  -webkit-margin-after: 1em;\n          margin-block-end: 1em;\n}\n.enact_ui_BodyText_BodyText_bodyText.enact_ui_BodyText_BodyText_centered {\n  text-align: center;\n}\n", "",{"version":3,"sources":["webpack://node_modules/@enact/ui/BodyText/BodyText.module.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,0BAAuB;UAAvB,uBAAuB;EACvB,yBAAqB;UAArB,qBAAqB;AACvB;AACA;EACE,kBAAkB;AACpB","sourcesContent":[".bodyText {\n  text-align: left;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n}\n.bodyText.centered {\n  text-align: center;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"bodyText": "enact_ui_BodyText_BodyText_bodyText",
+	"centered": "enact_ui_BodyText_BodyText_centered"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Button/Button.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Heading/Heading.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Icon/Icon.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Layout/Layout.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Marquee/Marquee.module.css":
+false,
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/Transition/Transition.module.css":
+false,
+
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+false,
+
+/***/ "./node_modules/@enact/core/useChainRefs/useChainRefs.js":
+false,
+
+/***/ "./node_modules/@enact/i18n/util/util.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Button/Button.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Button/Button.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Heading/Heading.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Heading/Heading.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Icon/Icon.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Icon/Icon.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Icon/IconList.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Marquee/Marquee.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Panels/Header.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Panels/Header.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Panels/Panel.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Panels/Panel.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Panels/Panels.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Panels/Panels.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Panels/index.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Popup/Popup.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/Popup/Popup.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/TooltipDecorator/Tooltip.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/TooltipDecorator/Tooltip.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/TooltipDecorator/TooltipDecorator.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/TooltipDecorator/TooltipLabel.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/TooltipDecorator/util.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/$L/$L.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/Arrangers.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/CancelDecorator.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/FloatingLayerIdProvider.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/NavigationButton.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/NavigationButton.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/PopupDecorator.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/TransitionDecorator.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/Viewport.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/Viewport.module.css":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/captureKeys.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/index.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/useAutoFocus.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/Panels/util.js":
+false,
+
+/***/ "./node_modules/@enact/sandstone/internal/SharedStateDecorator/SharedStateDecorator.js":
+false,
+
+/***/ "./node_modules/@enact/spotlight/SpotlightContainerDecorator/SpotlightContainer.js":
+false,
+
+/***/ "./node_modules/@enact/spotlight/SpotlightContainerDecorator/SpotlightContainerDecorator.js":
+false,
+
+/***/ "./node_modules/@enact/spotlight/SpotlightContainerDecorator/useSpotlightContainer.js":
+false,
+
+/***/ "./node_modules/@enact/ui/BodyText/BodyText.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@enact/ui/BodyText/BodyText.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.BodyTextDecorator = exports.BodyTextBase = exports.BodyText = exports["default"] = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! @enact/core/internal/prop-types */ "./node_modules/@enact/core/internal/prop-types/prop-types.js"));
+
+var _kind = _interopRequireDefault(__webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js"));
+
+var _propTypes2 = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _ForwardRef = _interopRequireDefault(__webpack_require__(/*! ../ForwardRef */ "./node_modules/@enact/ui/ForwardRef/ForwardRef.js"));
+
+var _BodyTextModule = _interopRequireDefault(__webpack_require__(/*! ./BodyText.module.css */ "./node_modules/@enact/ui/BodyText/BodyText.module.css"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+/**
+ * A simple, unstyled text block component, without
+ * [BodyTextDecorator](ui/BodyText.BodyTextDecorator) applied.
+ *
+ * @class BodyTextBase
+ * @memberof ui/BodyText
+ * @ui
+ * @public
+ */
+
+
+var BodyTextBase = (0, _kind["default"])({
+  name: 'ui:BodyText',
+  propTypes:
+  /** @lends ui/BodyText.BodyTextBase.prototype */
+  {
+    /**
+     * Centers the contents.
+     *
+     * Applies the `centered` CSS class which can be customized by
+     * [theming]{@link /docs/developer-guide/theming/}.
+     *
+     * @type {Boolean}
+     * @default false
+     * @public
+     */
+    centered: _propTypes2["default"].bool,
+
+    /**
+     * The type of component to use to render the item. May be a DOM node name (e.g 'div',
+     * 'p', etc.) or a custom component.
+     *
+     * @type {Component}
+     * @default 'p'
+     * @public
+     */
+    component: _propTypes["default"].renderable,
+
+    /**
+     * Called with a reference to the root component.
+     *
+     * When using {@link ui/BodyText.BodyText}, the `ref` prop is forwarded to this component
+     * as `componentRef`.
+     *
+     * @type {Object|Function}
+     * @public
+     */
+    componentRef: _propTypes["default"].ref,
+
+    /**
+     * Customizes the component by mapping the supplied collection of CSS class names to the
+     * corresponding internal elements and states of this component.
+     *
+     * The following classes are supported:
+     *
+     * * `bodyText` - The root class name
+     * * `centered` - Applied when `centered` prop is `true`
+     *
+     * @type {Object}
+     * @public
+     */
+    css: _propTypes2["default"].object
+  },
+  defaultProps: {
+    centered: false,
+    component: 'p'
+  },
+  styles: {
+    css: _BodyTextModule["default"],
+    className: 'bodyText',
+    publicClassNames: true
+  },
+  computed: {
+    className: function className(_ref) {
+      var centered = _ref.centered,
+          styler = _ref.styler;
+      return styler.append({
+        centered: centered
+      });
+    }
+  },
+  render: function render(_ref2) {
+    var Component = _ref2.component,
+        componentRef = _ref2.componentRef,
+        rest = _objectWithoutProperties(_ref2, ["component", "componentRef"]);
+
+    delete rest.centered;
+    return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, _objectSpread({
+      ref: componentRef
+    }, rest));
+  }
+});
+/**
+ * Applies BodyText behaviors.
+ *
+ * @hoc
+ * @memberof ui/BodyText
+ * @mixes ui/ForwardRef.ForwardRef
+ * @public
+ */
+
+exports.BodyTextBase = BodyTextBase;
+var BodyTextDecorator = (0, _ForwardRef["default"])({
+  prop: 'componentRef'
+});
+/**
+ * A simple, unstyled text block component.
+ *
+ * @class BodyText
+ * @memberof ui/BodyText
+ * @extends ui/BodyText.BodyTextBase
+ * @mixes ui/BodyText.BodyTextDecorator
+ * @omit componentRef
+ * @ui
+ * @public
+ */
+
+exports.BodyTextDecorator = BodyTextDecorator;
+var BodyText = BodyTextDecorator(BodyTextBase);
+exports.BodyText = BodyText;
+var _default = BodyText;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/BodyText/BodyText.module.css":
+/*!*************************************************************!*\
+  !*** ./node_modules/@enact/ui/BodyText/BodyText.module.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./BodyText.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/BodyText/BodyText.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./BodyText.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/BodyText/BodyText.module.css",
+      function () {
+        content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./BodyText.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/BodyText/BodyText.module.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/Button/Button.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Button/Button.module.css":
+false,
+
+/***/ "./node_modules/@enact/ui/ComponentOverride/ComponentOverride.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Heading/Heading.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Heading/Heading.module.css":
+false,
+
+/***/ "./node_modules/@enact/ui/Icon/Icon.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Icon/Icon.module.css":
+false,
+
+/***/ "./node_modules/@enact/ui/Layout/Cell.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Layout/Layout.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Layout/Layout.module.css":
+false,
+
+/***/ "./node_modules/@enact/ui/Marquee/Marquee.module.css":
+false,
+
+/***/ "./node_modules/@enact/ui/Marquee/MarqueeBase.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Marquee/MarqueeController.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Marquee/MarqueeDecorator.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Marquee/index.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Measurable/Measurable.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Routable/Link.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Routable/Routable.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Routable/Route.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Routable/Router.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Routable/useLink.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Routable/util.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Slottable/Slottable.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Slottable/useSlots.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Transition/Transition.js":
+false,
+
+/***/ "./node_modules/@enact/ui/Transition/Transition.module.css":
+false,
+
+/***/ "./node_modules/@enact/ui/ViewManager/Arranger.js":
+false,
+
+/***/ "./node_modules/@enact/ui/ViewManager/TransitionGroup.js":
+false,
+
+/***/ "./node_modules/@enact/ui/ViewManager/View.js":
+false,
+
+/***/ "./node_modules/@enact/ui/ViewManager/ViewManager.js":
+false,
+
+/***/ "./node_modules/@enact/ui/internal/IdProvider/IdProvider.js":
+false,
+
+/***/ "./node_modules/@enact/ui/internal/IdProvider/Provider.js":
+false,
+
+/***/ "./node_modules/@enact/ui/internal/IdProvider/useId.js":
+false,
+
+/***/ "./node_modules/@enact/ui/internal/Pure/Pure.js":
+false,
+
+/***/ "./node_modules/direction/index.js":
+false,
+
+/***/ "./node_modules/fbjs/lib/shallowEqual.js":
+false,
+
+/***/ "./node_modules/ramda/src/compose.js":
+false,
+
+/***/ "./node_modules/ramda/src/eqBy.js":
+false,
+
+/***/ "./node_modules/ramda/src/findIndex.js":
+false,
+
+/***/ "./node_modules/ramda/src/internal/_checkForMethod.js":
+false,
+
+/***/ "./node_modules/ramda/src/internal/_containsWith.js":
+false,
+
+/***/ "./node_modules/ramda/src/internal/_pipe.js":
+false,
+
+/***/ "./node_modules/ramda/src/internal/_reduced.js":
+false,
+
+/***/ "./node_modules/ramda/src/internal/_xfindIndex.js":
+false,
+
+/***/ "./node_modules/ramda/src/omit.js":
+false,
+
+/***/ "./node_modules/ramda/src/pick.js":
+false,
+
+/***/ "./node_modules/ramda/src/pipe.js":
+false,
+
+/***/ "./node_modules/ramda/src/prop.js":
+false,
+
+/***/ "./node_modules/ramda/src/propEq.js":
+false,
+
+/***/ "./node_modules/ramda/src/remove.js":
+false,
+
+/***/ "./node_modules/ramda/src/reverse.js":
+false,
+
+/***/ "./node_modules/ramda/src/slice.js":
+false,
+
+/***/ "./node_modules/ramda/src/tail.js":
+false,
+
+/***/ "./node_modules/ramda/src/unionWith.js":
+false,
+
+/***/ "./node_modules/ramda/src/uniqWith.js":
+false,
+
+/***/ "./node_modules/ramda/src/useWith.js":
+false,
+
+/***/ "./node_modules/recompose/defaultProps.js":
+false,
+
+/***/ "./node_modules/recompose/getDisplayName.js":
+false,
+
+/***/ "./node_modules/recompose/setDisplayName.js":
+false,
+
+/***/ "./node_modules/recompose/setPropTypes.js":
+false,
+
+/***/ "./node_modules/recompose/setStatic.js":
+false,
+
+/***/ "./node_modules/recompose/shallowEqual.js":
+false,
+
+/***/ "./node_modules/recompose/wrapDisplayName.js":
+false,
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default, App, AppBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppBase", function() { return AppBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @enact/sandstone/ThemeDecorator */ "./node_modules/@enact/sandstone/ThemeDecorator/ThemeDecorator.js");
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enact/ui/Repeater */ "./node_modules/@enact/ui/Repeater/Repeater.js");
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Movies__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Movies */ "./src/components/Movies.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @enact/ui/Scroller */ "./node_modules/@enact/ui/Scroller/Scroller.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @enact/ui/BodyText */ "./node_modules/@enact/ui/BodyText/BodyText.js");
+/* harmony import */ var _enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "/home/huiju/lgwebos/src/App/App.js";
+
+
+
+
+
+
+
+const movies = ['1', '2', '3', '4'];
+const AppBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'App',
+  render: function (props) {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+      className: props.className,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h1", {
+          children: "Latest Movie Rankings"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default.a, {
+          childComponent: _components_Movies__WEBPACK_IMPORTED_MODULE_3__["movie"],
+          indexProp: "index",
+          children: movies
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_6__["jsxDEV"])("h2", {
+          children: "Categories"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 6
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 5
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 4
+    }, this);
+  }
+});
+const App = _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default()(AppBase);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.968a8ddf77351ee4cb65.hot-update.js.map”r∂ù8D      `ˆëP`ˆëPC5±Y`ˆëP   w    O^partitionKey=%28http%2C192.168.187.128%2C8080%29,:http://192.168.187.128:8080/main.968a8ddf77351ee4cb65.hot-update.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 28670
+ETag: W/"6ffe-L478yexN0PueMduiukB25Z+BwCo"
+Date: Tue, 20 Jul 2021 09:03:12 GMT
+ original-response-headers X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 28670
+ETag: W/"6ffe-L478yexN0PueMduiukB25Z+BwCo"
+Date: Tue, 20 Jul 2021 09:03:12 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+ ctid 2 uncompressed-len 0 net-response-time-onstart 4 net-response-time-onstop 4   o˛

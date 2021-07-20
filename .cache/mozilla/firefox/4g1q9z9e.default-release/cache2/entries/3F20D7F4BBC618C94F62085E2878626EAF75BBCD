@@ -1,0 +1,1095 @@
+webpackHotUpdate("main",{
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/IconButton/IconButton.module.css":
+/*!**********************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./node_modules/@enact/ui/IconButton/IconButton.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".enact_ui_IconButton_IconButton_iconButton {\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  background-position: center 0;\n}\n.enact_ui_IconButton_IconButton_iconButton .enact_ui_IconButton_IconButton_icon {\n  margin: 0 auto;\n  pointer-events: none;\n}\n.enact_ui_IconButton_IconButton_iconButton.enact_ui_IconButton_IconButton_small {\n  /* Public Class Names */\n}\n", "",{"version":3,"sources":["webpack://node_modules/@enact/ui/IconButton/IconButton.module.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;EACtB,2BAA2B;EAC3B,6BAA6B;AAC/B;AACA;EACE,cAAc;EACd,oBAAoB;AACtB;AACA;EACE,uBAAuB;AACzB","sourcesContent":[".iconButton {\n  box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  background-position: center 0;\n}\n.iconButton .icon {\n  margin: 0 auto;\n  pointer-events: none;\n}\n.iconButton.small {\n  /* Public Class Names */\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"iconButton": "enact_ui_IconButton_IconButton_iconButton",
+	"icon": "enact_ui_IconButton_IconButton_icon",
+	"small": "enact_ui_IconButton_IconButton_small"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/ComponentOverride/ComponentOverride.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@enact/ui/ComponentOverride/ComponentOverride.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ComponentOverride = exports["default"] = void 0;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _reactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+/**
+ * Utility to either create or clone a component instance with the given set of props.
+ *
+ * `ComponentOverride` can be used to support props that either accept a type, (e.g. `Button`) or an
+ * element (e.g. `<Button customProp="value" />`) and return a new element which includes the
+ * remaining props specified.
+ *
+ * Example:
+ * ```
+ * const LabeledIconButton = ({iconComponent, label, ...rest}) => {
+ *   return (
+ *     <div {...rest}>
+ *       <ComponentOverride
+ *         component={iconComponent}
+ *         icon="house"
+ *       />
+ *       <span>{label}</span>
+ *     </div>
+ *   );
+ * };
+ *
+ * // Usage
+ *
+ * // Only the props defined by LabeledIconButton will be passed to CustomIcon
+ * <LabeledIconButton
+ *   label="Home"
+ *   iconComponent={CustomIcon}
+ * />
+ *
+ * // The color prop along with props defined by LabeledIconButton will be passed to CustomIcon
+ * <LabeledIconButton
+ *   label="Home"
+ *   iconComponent={
+ *     <CustomIcon color="green" />
+ *   }
+ * />
+ * ```
+ *
+ * @class
+ * @memberof ui/ComponentOverride
+ * @ui
+ * @public
+ */
+
+
+var ComponentOverride = function ComponentOverride(_ref) {
+  var Component = _ref.component,
+      props = _objectWithoutProperties(_ref, ["component"]);
+
+  return Component && ((0, _reactIs.isValidElementType)(Component) && /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, _objectSpread({}, props)) || /*#__PURE__*/(0, _react.isValidElement)(Component) && /*#__PURE__*/(0, _react.cloneElement)(Component, props)) || null;
+};
+
+exports.ComponentOverride = ComponentOverride;
+var _default = ComponentOverride;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/IconButton/IconButton.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@enact/ui/IconButton/IconButton.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.IconButtonDecorator = exports.IconButtonBase = exports.IconButton = exports["default"] = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! @enact/core/internal/prop-types */ "./node_modules/@enact/core/internal/prop-types/prop-types.js"));
+
+var _kind = _interopRequireDefault(__webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js"));
+
+var _propTypes2 = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _compose = _interopRequireDefault(__webpack_require__(/*! ramda/src/compose */ "./node_modules/ramda/src/compose.js"));
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _ComponentOverride = _interopRequireDefault(__webpack_require__(/*! ../ComponentOverride */ "./node_modules/@enact/ui/ComponentOverride/ComponentOverride.js"));
+
+var _ForwardRef = _interopRequireDefault(__webpack_require__(/*! ../ForwardRef */ "./node_modules/@enact/ui/ForwardRef/ForwardRef.js"));
+
+var _Touchable = _interopRequireDefault(__webpack_require__(/*! ../Touchable */ "./node_modules/@enact/ui/Touchable/Touchable.js"));
+
+var _IconButtonModule = _interopRequireDefault(__webpack_require__(/*! ./IconButton.module.css */ "./node_modules/@enact/ui/IconButton/IconButton.module.css"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function _toConsumableArray(arr) {
+  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
+}
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+function _unsupportedIterableToArray(o, minLen) {
+  if (!o) return;
+  if (typeof o === "string") return _arrayLikeToArray(o, minLen);
+  var n = Object.prototype.toString.call(o).slice(8, -1);
+  if (n === "Object" && o.constructor) n = o.constructor.name;
+  if (n === "Map" || n === "Set") return Array.from(o);
+  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
+}
+
+function _iterableToArray(iter) {
+  if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
+}
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) return _arrayLikeToArray(arr);
+}
+
+function _arrayLikeToArray(arr, len) {
+  if (len == null || len > arr.length) len = arr.length;
+
+  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+    arr2[i] = arr[i];
+  }
+
+  return arr2;
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+/**
+ * A ui-styled button without any behavior.
+ *
+ * @class IconButtonBase
+ * @memberof ui/IconButton
+ * @ui
+ * @public
+ */
+
+
+var IconButtonBase = (0, _kind["default"])({
+  name: 'ui:IconButton',
+  propTypes:
+  /** @lends ui/IconButton.IconButtonBase.prototype */
+  {
+    /**
+     * This is the root component used to render the button and will receive all props except
+     * `icon`.
+     *
+     * @type {Component|Element}
+     * @required
+     * @public
+     */
+    buttonComponent: _propTypes["default"].componentOverride.isRequired,
+
+    /**
+     * The component used to render the [icon]{@link ui/IconButton.IconButtonBase.icon}.
+     *
+     * This component will receive the `flip` and `size` property set on the `IconButton` as well as the
+     * `icon` class to customize its styling.
+     *
+     * @type {Component}
+     * @required
+     * @public
+     */
+    iconComponent: _propTypes["default"].component.isRequired,
+
+    /**
+     * Additional children that follow the icon.
+     *
+     * If `icon` isn't specified but `children` is, `children` is used as the icon's value.
+     *
+     * @see {@link ui/Icon.Icon#children}
+     * @type {Node}
+     * @public
+     */
+    children: _propTypes2["default"].node,
+
+    /**
+     * Called with a reference to the root component.
+     *
+     * When using {@link ui/IconButton.IconButton}, the `ref` prop is forwarded to this
+     * component as `componentRef`.
+     *
+     * @type {Object|Function}
+     * @public
+     */
+    componentRef: _propTypes["default"].ref,
+
+    /**
+     * Customizes the component by mapping the supplied collection of CSS class names to the
+     * corresponding internal elements and states of this component.
+     *
+     * The following classes are supported:
+     *
+     * * `iconButton` - The root component class
+     * * `icon` - The [icon component]{@link ui/IconButton.IconButtonBase.iconComponent} class
+     * * `large` - Applied when `size` prop is `'large'`
+     * * `small` - Applied when `size` prop is `'small'`
+     * * `pressed` - Applied when `pressed` prop is `true`
+     *
+     * @type {Object}
+     * @public
+     */
+    css: _propTypes2["default"].object,
+
+    /**
+     * Disables IconButton.
+     *
+     * When `true`, the button is shown as disabled and does not generate
+     * `onClick` [events]{@link /docs/developer-guide/glossary/#event}.
+     *
+     * @type {Boolean}
+     * @default false
+     * @public
+     */
+    disabled: _propTypes2["default"].bool,
+
+    /**
+     * Flip the icon horizontally, vertically or both.
+     *
+     * @type {('both'|'horizontal'|'vertical')}
+     * @public
+     */
+    flip: _propTypes2["default"].string,
+
+    /**
+     * The icon displayed within the IconButton.
+     *
+     * If not specified, `children` is used as the icon value instead.
+     *
+     * @type {String}
+     * @public
+     */
+    icon: _propTypes2["default"].string,
+
+    /**
+     * Applies the `pressed` CSS class.
+     *
+     * @type {Boolean}
+     * @default false
+     * @public
+     */
+    pressed: _propTypes2["default"].bool,
+
+    /**
+     * Applies the `selected` CSS class.
+     *
+     * @type {Boolean}
+     * @default false
+     * @public
+     */
+    selected: _propTypes2["default"].bool,
+
+    /**
+     * The size of the button.
+     *
+     * Applies the CSS class which can be customized by
+     * [theming]{@link /docs/developer-guide/theming/}.
+     *
+     * @type {String}
+     * @public
+     */
+    size: _propTypes2["default"].string
+  },
+  defaultProps: {
+    disabled: false,
+    pressed: false,
+    selected: false
+  },
+  styles: {
+    css: _IconButtonModule["default"],
+    className: 'iconButton',
+    publicClassNames: true
+  },
+  computed: {
+    className: function className(_ref) {
+      var size = _ref.size,
+          styler = _ref.styler;
+      return styler.append(size);
+    }
+  },
+  render: function render(_ref2) {
+    var buttonComponent = _ref2.buttonComponent,
+        children = _ref2.children,
+        componentRef = _ref2.componentRef,
+        css = _ref2.css,
+        flip = _ref2.flip,
+        icon = _ref2.icon,
+        Icon = _ref2.iconComponent,
+        size = _ref2.size,
+        rest = _objectWithoutProperties(_ref2, ["buttonComponent", "children", "componentRef", "css", "flip", "icon", "iconComponent", "size"]); // To support the simpler use case of only specifying the icon as the children within
+    // <IconButton>, this falls back on using children if icon isn't specified.
+
+
+    if (!icon && children) {
+      icon = children;
+      children = null;
+    }
+
+    return (0, _ComponentOverride["default"])(_objectSpread(_objectSpread({}, rest), {}, {
+      component: buttonComponent,
+      size: size,
+      minWidth: false,
+      children: [/*#__PURE__*/(0, _jsxRuntime.jsx)(Icon, {
+        flip: flip,
+        size: size,
+        className: css.icon,
+        children: icon
+      }, "icon")].concat(_toConsumableArray(_react.Children.toArray(children))),
+      ref: componentRef
+    }));
+  }
+});
+/**
+ * A higher-order component that adds universal button behaviors to an [IconButtonBase]{@link ui/IconButton.IconButtonBase}.
+ *
+ * @hoc
+ * @memberof ui/IconButton
+ * @mixes ui/ForwardRef.ForwardRef
+ * @mixes ui/Touchable.Touchable
+ * @public
+ */
+
+exports.IconButtonBase = IconButtonBase;
+var IconButtonDecorator = (0, _compose["default"])((0, _ForwardRef["default"])({
+  prop: 'componentRef'
+}), (0, _Touchable["default"])({
+  activeProp: 'pressed'
+}));
+/**
+ * A minimally styled, but interactive, Button ready for customization by a theme.
+ *
+ * Example:
+ * ```
+ * <IconButton size="small">
+ *     plus
+ * </IconButton>
+ * ```
+ *
+ * @class IconButton
+ * @extends ui/IconButton.IconButtonBase
+ * @mixes ui/IconButton.IconButtonDecorator
+ * @omit componentRef
+ * @memberof ui/IconButton
+ * @ui
+ * @public
+ */
+
+exports.IconButtonDecorator = IconButtonDecorator;
+var IconButton = IconButtonDecorator(IconButtonBase);
+exports.IconButton = IconButton;
+var _default = IconButton;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@enact/ui/IconButton/IconButton.module.css":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@enact/ui/IconButton/IconButton.module.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./IconButton.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/IconButton/IconButton.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./IconButton.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/IconButton/IconButton.module.css",
+      function () {
+        content = __webpack_require__(/*! !../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-1-1!../../../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!./IconButton.module.css */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!./node_modules/@enact/ui/IconButton/IconButton.module.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./node_modules/ramda/src/compose.js":
+/*!*******************************************!*\
+  !*** ./node_modules/ramda/src/compose.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pipe = __webpack_require__(/*! ./pipe */ "./node_modules/ramda/src/pipe.js");
+var reverse = __webpack_require__(/*! ./reverse */ "./node_modules/ramda/src/reverse.js");
+
+
+/**
+ * Performs right-to-left function composition. The rightmost function may have
+ * any arity; the remaining functions must be unary.
+ *
+ * **Note:** The result of compose is not automatically curried.
+ *
+ * @func
+ * @memberOf R
+ * @since v0.1.0
+ * @category Function
+ * @sig ((y -> z), (x -> y), ..., (o -> p), ((a, b, ..., n) -> o)) -> ((a, b, ..., n) -> z)
+ * @param {...Function} ...functions The functions to compose
+ * @return {Function}
+ * @see R.pipe
+ * @example
+ *
+ *      var classyGreeting = (firstName, lastName) => "The name's " + lastName + ", " + firstName + " " + lastName
+ *      var yellGreeting = R.compose(R.toUpper, classyGreeting);
+ *      yellGreeting('James', 'Bond'); //=> "THE NAME'S BOND, JAMES BOND"
+ *
+ *      R.compose(Math.abs, R.add(1), R.multiply(2))(-4) //=> 7
+ *
+ * @symb R.compose(f, g, h)(a, b) = f(g(h(a, b)))
+ */
+module.exports = function compose() {
+  if (arguments.length === 0) {
+    throw new Error('compose requires at least one argument');
+  }
+  return pipe.apply(this, reverse(arguments));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/ramda/src/internal/_checkForMethod.js":
+/*!************************************************************!*\
+  !*** ./node_modules/ramda/src/internal/_checkForMethod.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _isArray = __webpack_require__(/*! ./_isArray */ "./node_modules/ramda/src/internal/_isArray.js");
+
+
+/**
+ * This checks whether a function has a [methodname] function. If it isn't an
+ * array it will execute that function otherwise it will default to the ramda
+ * implementation.
+ *
+ * @private
+ * @param {Function} fn ramda implemtation
+ * @param {String} methodname property to check for a custom implementation
+ * @return {Object} Whatever the return value of the method is.
+ */
+module.exports = function _checkForMethod(methodname, fn) {
+  return function() {
+    var length = arguments.length;
+    if (length === 0) {
+      return fn();
+    }
+    var obj = arguments[length - 1];
+    return (_isArray(obj) || typeof obj[methodname] !== 'function') ?
+      fn.apply(this, arguments) :
+      obj[methodname].apply(obj, Array.prototype.slice.call(arguments, 0, length - 1));
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/ramda/src/internal/_pipe.js":
+/*!**************************************************!*\
+  !*** ./node_modules/ramda/src/internal/_pipe.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function _pipe(f, g) {
+  return function() {
+    return g.call(this, f.apply(this, arguments));
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/ramda/src/pipe.js":
+/*!****************************************!*\
+  !*** ./node_modules/ramda/src/pipe.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _arity = __webpack_require__(/*! ./internal/_arity */ "./node_modules/ramda/src/internal/_arity.js");
+var _pipe = __webpack_require__(/*! ./internal/_pipe */ "./node_modules/ramda/src/internal/_pipe.js");
+var reduce = __webpack_require__(/*! ./reduce */ "./node_modules/ramda/src/reduce.js");
+var tail = __webpack_require__(/*! ./tail */ "./node_modules/ramda/src/tail.js");
+
+
+/**
+ * Performs left-to-right function composition. The leftmost function may have
+ * any arity; the remaining functions must be unary.
+ *
+ * In some libraries this function is named `sequence`.
+ *
+ * **Note:** The result of pipe is not automatically curried.
+ *
+ * @func
+ * @memberOf R
+ * @since v0.1.0
+ * @category Function
+ * @sig (((a, b, ..., n) -> o), (o -> p), ..., (x -> y), (y -> z)) -> ((a, b, ..., n) -> z)
+ * @param {...Function} functions
+ * @return {Function}
+ * @see R.compose
+ * @example
+ *
+ *      var f = R.pipe(Math.pow, R.negate, R.inc);
+ *
+ *      f(3, 4); // -(3^4) + 1
+ * @symb R.pipe(f, g, h)(a, b) = h(g(f(a, b)))
+ */
+module.exports = function pipe() {
+  if (arguments.length === 0) {
+    throw new Error('pipe requires at least one argument');
+  }
+  return _arity(arguments[0].length,
+                reduce(_pipe, arguments[0], tail(arguments)));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/ramda/src/reverse.js":
+/*!*******************************************!*\
+  !*** ./node_modules/ramda/src/reverse.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _curry1 = __webpack_require__(/*! ./internal/_curry1 */ "./node_modules/ramda/src/internal/_curry1.js");
+var _isString = __webpack_require__(/*! ./internal/_isString */ "./node_modules/ramda/src/internal/_isString.js");
+
+
+/**
+ * Returns a new list or string with the elements or characters in reverse
+ * order.
+ *
+ * @func
+ * @memberOf R
+ * @since v0.1.0
+ * @category List
+ * @sig [a] -> [a]
+ * @sig String -> String
+ * @param {Array|String} list
+ * @return {Array|String}
+ * @example
+ *
+ *      R.reverse([1, 2, 3]);  //=> [3, 2, 1]
+ *      R.reverse([1, 2]);     //=> [2, 1]
+ *      R.reverse([1]);        //=> [1]
+ *      R.reverse([]);         //=> []
+ *
+ *      R.reverse('abc');      //=> 'cba'
+ *      R.reverse('ab');       //=> 'ba'
+ *      R.reverse('a');        //=> 'a'
+ *      R.reverse('');         //=> ''
+ */
+module.exports = _curry1(function reverse(list) {
+  return _isString(list) ? list.split('').reverse().join('') :
+                           Array.prototype.slice.call(list, 0).reverse();
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/ramda/src/slice.js":
+/*!*****************************************!*\
+  !*** ./node_modules/ramda/src/slice.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _checkForMethod = __webpack_require__(/*! ./internal/_checkForMethod */ "./node_modules/ramda/src/internal/_checkForMethod.js");
+var _curry3 = __webpack_require__(/*! ./internal/_curry3 */ "./node_modules/ramda/src/internal/_curry3.js");
+
+
+/**
+ * Returns the elements of the given list or string (or object with a `slice`
+ * method) from `fromIndex` (inclusive) to `toIndex` (exclusive).
+ *
+ * Dispatches to the `slice` method of the third argument, if present.
+ *
+ * @func
+ * @memberOf R
+ * @since v0.1.4
+ * @category List
+ * @sig Number -> Number -> [a] -> [a]
+ * @sig Number -> Number -> String -> String
+ * @param {Number} fromIndex The start index (inclusive).
+ * @param {Number} toIndex The end index (exclusive).
+ * @param {*} list
+ * @return {*}
+ * @example
+ *
+ *      R.slice(1, 3, ['a', 'b', 'c', 'd']);        //=> ['b', 'c']
+ *      R.slice(1, Infinity, ['a', 'b', 'c', 'd']); //=> ['b', 'c', 'd']
+ *      R.slice(0, -1, ['a', 'b', 'c', 'd']);       //=> ['a', 'b', 'c']
+ *      R.slice(-3, -1, ['a', 'b', 'c', 'd']);      //=> ['b', 'c']
+ *      R.slice(0, 3, 'ramda');                     //=> 'ram'
+ */
+module.exports = _curry3(_checkForMethod('slice', function slice(fromIndex, toIndex, list) {
+  return Array.prototype.slice.call(list, fromIndex, toIndex);
+}));
+
+
+/***/ }),
+
+/***/ "./node_modules/ramda/src/tail.js":
+/*!****************************************!*\
+  !*** ./node_modules/ramda/src/tail.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _checkForMethod = __webpack_require__(/*! ./internal/_checkForMethod */ "./node_modules/ramda/src/internal/_checkForMethod.js");
+var _curry1 = __webpack_require__(/*! ./internal/_curry1 */ "./node_modules/ramda/src/internal/_curry1.js");
+var slice = __webpack_require__(/*! ./slice */ "./node_modules/ramda/src/slice.js");
+
+
+/**
+ * Returns all but the first element of the given list or string (or object
+ * with a `tail` method).
+ *
+ * Dispatches to the `slice` method of the first argument, if present.
+ *
+ * @func
+ * @memberOf R
+ * @since v0.1.0
+ * @category List
+ * @sig [a] -> [a]
+ * @sig String -> String
+ * @param {*} list
+ * @return {*}
+ * @see R.head, R.init, R.last
+ * @example
+ *
+ *      R.tail([1, 2, 3]);  //=> [2, 3]
+ *      R.tail([1, 2]);     //=> [2]
+ *      R.tail([1]);        //=> []
+ *      R.tail([]);         //=> []
+ *
+ *      R.tail('abc');  //=> 'bc'
+ *      R.tail('ab');   //=> 'b'
+ *      R.tail('a');    //=> ''
+ *      R.tail('');     //=> ''
+ */
+module.exports = _curry1(_checkForMethod('tail', slice(1, Infinity)));
+
+
+/***/ }),
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default, App, AppBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppBase", function() { return AppBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @enact/sandstone/ThemeDecorator */ "./node_modules/@enact/sandstone/ThemeDecorator/ThemeDecorator.js");
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enact/ui/Repeater */ "./node_modules/@enact/ui/Repeater/Repeater.js");
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Movies__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Movies */ "./src/components/Movies.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @enact/ui/Scroller */ "./node_modules/@enact/ui/Scroller/Scroller.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @enact/ui/BodyText */ "./node_modules/@enact/ui/BodyText/BodyText.js");
+/* harmony import */ var _enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _enact_ui_IconButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @enact/ui/IconButton */ "./node_modules/@enact/ui/IconButton/IconButton.js");
+/* harmony import */ var _enact_ui_IconButton__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_IconButton__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/home/huiju/lgwebos/src/App/App.js";
+
+
+
+
+
+
+
+
+const movies = ['1', '2', '3', '4'];
+const AppBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'App',
+  render: function (props) {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+      className: props.className,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("center", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h1", {
+            children: "Latest Movie Rankings"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 7
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default.a, {
+          childComponent: _components_Movies__WEBPACK_IMPORTED_MODULE_3__["movie"],
+          indexProp: "index",
+          children: movies
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("h2", {
+          children: "Categories"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 6
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 5
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("div", {
+        className: "search",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("i", {
+          className: "fas fa-search"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])(_enact_ui_IconButton__WEBPACK_IMPORTED_MODULE_6___default.a, {
+          size: "small",
+          children: "plus"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("input", {
+          type: "text",
+          placeholder: "\uF002"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("i", {
+          className: "fas fa-keyboard"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("i", {
+          className: "fas fa-microphone"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 6
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 5
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("input", {
+        type: "button",
+        className: "box",
+        value: "Weegle search"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 5
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_7__["jsxDEV"])("input", {
+        type: "button",
+        className: "box",
+        value: "im feeling lucky"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 5
+      }, this)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 4
+    }, this);
+  }
+});
+const App = _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default()(AppBase);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.6dcadc8a71d8aa9e3ac5.hot-update.js.mapÒâíº>           `öœ7C5¸ç`öœ7   w    O^partitionKey=%28http%2C192.168.187.128%2C8080%29,:http://192.168.187.128:8080/main.6dcadc8a71d8aa9e3ac5.hot-update.js strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 38946
+ETag: W/"9822-WF6aPvaXsnfxUAgc6siGfLIBaMs"
+Date: Tue, 20 Jul 2021 09:49:43 GMT
+ original-response-headers X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 38946
+ETag: W/"9822-WF6aPvaXsnfxUAgc6siGfLIBaMs"
+Date: Tue, 20 Jul 2021 09:49:43 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+ ctid 2 uncompressed-len 0 net-response-time-onstart 36 net-response-time-onstop 44   ˜"

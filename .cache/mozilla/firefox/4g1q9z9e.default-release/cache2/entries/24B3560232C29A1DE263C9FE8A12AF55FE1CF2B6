@@ -1,0 +1,367 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/@enact/ui/Repeater/Repeater.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@enact/ui/Repeater/Repeater.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.RepeaterBase = exports.Repeater = exports["default"] = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! @enact/core/internal/prop-types */ "./node_modules/@enact/core/internal/prop-types/prop-types.js"));
+
+var _kind = _interopRequireDefault(__webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js"));
+
+var _propTypes2 = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _ForwardRef = _interopRequireDefault(__webpack_require__(/*! ../ForwardRef */ "./node_modules/@enact/ui/ForwardRef/ForwardRef.js"));
+
+var _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+/**
+ * A stateless component that stamps out copies of `childComponent`, without
+ * [RepeaterDecorator](ui/Repeater.RepeaterDecorator) applied.
+ *
+ * @class RepeaterBase
+ * @memberof ui/Repeater
+ * @ui
+ * @public
+ */
+
+
+var RepeaterBase = (0, _kind["default"])({
+  name: 'Repeater',
+  propTypes:
+  /** @lends ui/Repeater.RepeaterBase.prototype */
+  {
+    /**
+     * Component type to repeat.
+     *
+     * This can be a React component or a string describing a DOM node (e.g. `'div'`).
+     *
+     * @type {String|Component}
+     * @required
+     * @public
+     */
+    childComponent: _propTypes["default"].renderable.isRequired,
+
+    /**
+     * An array of data to be mapped onto the `childComponent`.
+     *
+     * This supports two data types. If an array of strings is provided, the strings will be used
+     * in the generated `childComponent` as the readable text. If an array of objects is provided,
+     * each object will be spread onto the generated `childComponent` with no interpretation.
+     * You'll be responsible for setting properties like `disabled`, `className`, and setting the
+     * text content using the `children` key.
+     *
+     * > **NOTE**: When an array of objects is provided, make sure a unique `key` is assigned to each
+     * data. See https://fb.me/react-warning-keys for more information.
+     *
+     * @type {String[]|Array.<{key: (Number|String)}>}
+     * @required
+     * @public
+     */
+    children: _propTypes2["default"].oneOfType([_propTypes2["default"].arrayOf(_propTypes2["default"].string), _propTypes2["default"].arrayOf(_propTypes2["default"].shape({
+      key: _propTypes2["default"].oneOfType([_propTypes2["default"].string, _propTypes2["default"].number]).isRequired
+    }))]).isRequired,
+
+    /**
+     * The property on each `childComponent` that receives the data in `children`.
+     *
+     * @type {String}
+     * @default 'children'
+     * @public
+     */
+    childProp: _propTypes2["default"].string,
+
+    /**
+     * Component type to wrap around all of the repeated elements.
+     *
+     * This can be a string describing a DOM node or React component (e.g. `'div'` or `Layout`).
+     *
+     * @type {String|Component}
+     * @default 'span'
+     * @public
+     */
+    component: _propTypes["default"].renderable,
+
+    /**
+     * Called with a reference to the root component.
+     *
+     * When using {@link ui/Repeater.Repeater}, the `ref` prop is forwarded to this component
+     * as `componentRef`.
+     *
+     * @type {Object|Function}
+     * @public
+     */
+    componentRef: _propTypes["default"].ref,
+
+    /**
+     * The property on each `childComponent` that receives the index of the item in the `Repeater`.
+     *
+     * @type {String}
+     * @default 'data-index'
+     * @public
+     */
+    indexProp: _propTypes2["default"].string,
+
+    /**
+     * An object containing properties to be passed to each child.
+     *
+     * @type {Object}
+     * @public
+     */
+    itemProps: _propTypes2["default"].object
+  },
+  defaultProps: {
+    childProp: 'children',
+    component: 'span',
+    indexProp: 'data-index'
+  },
+  computed: {
+    children: function children(_ref) {
+      var Component = _ref.childComponent,
+          _children = _ref.children,
+          childProp = _ref.childProp,
+          indexProp = _ref.indexProp,
+          itemProps = _ref.itemProps;
+      return _children.map(function (data, index) {
+        var props = {};
+
+        if (typeof data === 'object') {
+          props = _objectSpread(_objectSpread({}, itemProps), data);
+        } else if (childProp) {
+          props = _objectSpread(_objectSpread({
+            key: index
+          }, itemProps), {}, _defineProperty({}, childProp, data));
+        }
+
+        if (indexProp) props[indexProp] = index;
+        return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, _objectSpread({}, props));
+      });
+    }
+  },
+  render: function render(_ref2) {
+    var Component = _ref2.component,
+        componentRef = _ref2.componentRef,
+        rest = _objectWithoutProperties(_ref2, ["component", "componentRef"]);
+
+    delete rest.childComponent;
+    delete rest.childProp;
+    delete rest.indexProp;
+    delete rest.itemProps;
+    return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, _objectSpread({
+      ref: componentRef,
+      role: "list"
+    }, rest));
+  }
+});
+/**
+ * Applies Repeater behaviors.
+ *
+ * @hoc
+ * @memberof ui/Repeater
+ * @mixes ui/ForwardRef.ForwardRef
+ * @public
+ */
+
+exports.RepeaterBase = RepeaterBase;
+var RepeaterDecorator = (0, _ForwardRef["default"])({
+  prop: 'componentRef'
+});
+/**
+ * A stateless component that stamps out copies of `childComponent`.
+ *
+ * @class Repeater
+ * @memberof ui/Repeater
+ * @extends ui/Repeater.RepeaterBase
+ * @mixes ui/Repeater.RepeaterDecorator
+ * @omit componentRef
+ * @ui
+ * @public
+ */
+
+var Repeater = RepeaterDecorator(RepeaterBase);
+exports.Repeater = Repeater;
+var _default = Repeater;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default, App, AppBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppBase", function() { return AppBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @enact/sandstone/Panels */ "./node_modules/@enact/sandstone/Panels/index.js");
+/* harmony import */ var _enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enact/sandstone/ThemeDecorator */ "./node_modules/@enact/sandstone/ThemeDecorator/ThemeDecorator.js");
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @enact/ui/Repeater */ "./node_modules/@enact/ui/Repeater/Repeater.js");
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "/home/huiju/lgwebos/src/App/App.js";
+
+
+
+ //import { dog } from '../components/Dogs';
+
+
+const dogs = ['1', '2', '3', '4', '5'];
+const AppBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'App',
+  render: function (props) {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+      className: props.className,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])("img", {
+          src: "https://loremflickr.com/320/240/dog",
+          alt: "dogs"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 6
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 5
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 4
+    }, this);
+  }
+});
+const App = _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2___default()(AppBase);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.2599b2f63e782ef3267f.hot-update.js.map’÷Ÿ°}      `öK3`öK3C5€¿`öK3   w    O^partitionKey=%28http%2C192.168.187.128%2C8080%29,:http://192.168.187.128:8080/main.2599b2f63e782ef3267f.hot-update.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 11916
+ETag: W/"2e8c-b3m7xvmwzTl6EoI1Ew6CUE9yfZg"
+Date: Tue, 20 Jul 2021 04:04:03 GMT
+ original-response-headers X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 11916
+ETag: W/"2e8c-b3m7xvmwzTl6EoI1Ew6CUE9yfZg"
+Date: Tue, 20 Jul 2021 04:04:03 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+ ctid 2 uncompressed-len 0 net-response-time-onstart 3 net-response-time-onstop 4   .Œ

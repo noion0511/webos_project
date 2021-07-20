@@ -1,0 +1,270 @@
+webpackHotUpdate("main",{
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/components/dog.module.less":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!/usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./src/components/dog.module.less ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".src_components_dog_dog {\n  display: inline-block;\n  padding: 0.5rem;\n  text-align: center;\n}\n", "",{"version":3,"sources":["/home/huiju/lgwebos/src/components/dog.module.less","webpack://src/components/dog.module.less"],"names":[],"mappings":"AAAA;EACI,qBAAA;EACA,eAAA;EACA,kBAAA;ACCJ","sourcesContent":[".dog{\n    display: inline-block;\n    padding: 24px;\n    text-align: center;\n}\n@__DEV__: true;",".dog {\n  display: inline-block;\n  padding: 24px;\n  text-align: center;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"dog": "src_components_dog_dog"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default, App, AppBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppBase", function() { return AppBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @enact/sandstone/Panels */ "./node_modules/@enact/sandstone/Panels/index.js");
+/* harmony import */ var _enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_Panels__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enact/sandstone/ThemeDecorator */ "./node_modules/@enact/sandstone/ThemeDecorator/ThemeDecorator.js");
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @enact/ui/Repeater */ "./node_modules/@enact/ui/Repeater/Repeater.js");
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_Dogs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Dogs */ "./src/components/Dogs.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "/home/huiju/lgwebos/src/App/App.js";
+
+
+
+
+
+
+const dogs = ['1', '2', '3', '4', '5'];
+const AppBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'App',
+  render: function (props) {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+      className: props.className,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__["jsxDEV"])(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_3___default.a, {
+          childComponent: _components_Dogs__WEBPACK_IMPORTED_MODULE_4__["dog"],
+          indexProp: "index",
+          children: dogs
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 6
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 5
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 4
+    }, this);
+  }
+});
+const App = _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_2___default()(AppBase);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ }),
+
+/***/ "./src/components/Dogs.js":
+/*!********************************!*\
+  !*** ./src/components/Dogs.js ***!
+  \********************************/
+/*! exports provided: default, dog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dog", function() { return DogsBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _dog_module_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dog.module.less */ "./src/components/dog.module.less");
+/* harmony import */ var _dog_module_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_dog_module_less__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/home/huiju/lgwebos/src/components/Dogs.js";
+
+
+
+
+const DogsBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'dog',
+  propTypes: {
+    children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+    index: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+    size: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+  },
+  defaultProps: {
+    size: 300
+  },
+  styles: {
+    css: (_dog_module_less__WEBPACK_IMPORTED_MODULE_2___default()),
+    className: 'dog'
+  },
+  computed: {
+    url: ({
+      index,
+      size
+    }) => {
+      return `//loremflickr.com/${size}/${size}/dog?random=${index}`;
+    }
+  },
+  render: ({
+    children,
+    url,
+    ...rest
+  }) => {
+    delete rest.index;
+    delete rest.size;
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", { ...rest,
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("img", {
+        src: url,
+        alt: "dogs"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 17
+      }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+        children: children
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 17
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 13
+    }, undefined);
+  }
+});
+/* harmony default export */ __webpack_exports__["default"] = (DogsBase);
+
+
+/***/ }),
+
+/***/ "./src/components/dog.module.less":
+/*!****************************************!*\
+  !*** ./src/components/dog.module.less ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./dog.module.less */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/components/dog.module.less");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./dog.module.less */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/components/dog.module.less",
+      function () {
+        content = __webpack_require__(/*! !../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./dog.module.less */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/components/dog.module.less");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ })
+
+})
+//# sourceMappingURL=main.96cf277e1f135d4e33ec.hot-update.js.mapË£"      `öN`öNC5‚½`öN   w    O^partitionKey=%28http%2C192.168.187.128%2C8080%29,:http://192.168.187.128:8080/main.96cf277e1f135d4e33ec.hot-update.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 13913
+ETag: W/"3659-kGn5THWMypniJZf7hnerlE7vgTQ"
+Date: Tue, 20 Jul 2021 04:16:18 GMT
+ original-response-headers X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 13913
+ETag: W/"3659-kGn5THWMypniJZf7hnerlE7vgTQ"
+Date: Tue, 20 Jul 2021 04:16:18 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+ ctid 2 uncompressed-len 0 net-response-time-onstart 3 net-response-time-onstop 3   6Y

@@ -1,0 +1,260 @@
+webpackHotUpdate("main",{
+
+/***/ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/App/App.module.less":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!/usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!/usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./src/App/App.module.less ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _usr_local_lib_node_modules_enact_cli_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".src_App_App_app {\n  /* styles can be put here */\n}\n* {\n  box-sizing: border-box;\n}\n.src_App_App_weegle {\n  width: 8.33333rem;\n  display: block;\n  text-align: center;\n  margin: auto;\n}\n.src_App_App_search {\n  position: relative;\n  text-align: center;\n  width: 8.33333rem;\n  margin: 0 auto;\n}\ninput {\n  width: 100%;\n  border-radius: 0.41667rem;\n  border: 1px solid #bbb;\n  margin: 0.20833rem 0;\n  padding: 0.20833rem 0.25rem;\n  font-family: fontAwesome;\n}\n.src_App_App_fa-search {\n  position: absolute;\n  left: 0.3125rem;\n  top: 0.41667rem;\n  margin: 0;\n}\n.src_App_App_fa-keyboard {\n  position: absolute;\n  right: 0.72917rem;\n  top: 0.41667rem;\n}\n.src_App_App_fa-microphone {\n  position: absolute;\n  right: 0.3125rem;\n  top: 0.41667rem;\n  color: blue;\n}\n.src_App_App_box {\n  display: inline;\n  width: auto;\n  border-radius: 0;\n  margin: auto;\n  text-align: center;\n  color: #bbb;\n}\n.src_App_App_mainLoginInput::-webkit-input-placeholder {\n  font-family: FontAwesome;\n  font-weight: normal;\n  overflow: visible;\n  vertical-align: top;\n  display: inline-block !important;\n  padding-left: 0.10417rem;\n  padding-top: 1px;\n  color: hsl(9, 40%, 60%);\n}\n", "",{"version":3,"sources":["/home/huiju/lgwebos/src/App/App.module.less","webpack://src/App/App.module.less"],"names":[],"mappings":"AAAA;ECCE,2BAA2B;AAC7B;ADEA;EACI,sBAAA;ACAJ;ADEA;EACI,iBAAA;EACA,cAAA;EACA,kBAAA;EACA,YAAA;ACAJ;ADEA;EACI,kBAAA;EACA,kBAAA;EACA,iBAAA;EACA,cAAA;ACAJ;ADEA;EACI,WAAA;EACA,yBAAA;EACA,sBAAA;EACA,oBAAA;EACA,2BAAA;EACA,wBAAA;ACAJ;ADEA;EACI,kBAAA;EACA,eAAA;EACA,eAAA;EACA,SAAA;ACAJ;ADEA;EACI,kBAAA;EACA,iBAAA;EACA,eAAA;ACAJ;ADEA;EACI,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,WAAA;ACAJ;ADEA;EACI,eAAA;EACA,WAAA;EACA,gBAAA;EACA,YAAA;EACA,kBAAA;EACA,WAAA;ACAJ;ADEA;EACC,wBAAA;EACA,mBAAA;EACA,iBAAA;EACA,mBAAA;EACA,gCAAA;EACA,wBAAA;EACA,gBAAA;EACA,uBAAA;ACAD","sourcesContent":[".app {\n\t/* styles can be put here */\n}\n\n* {\n    box-sizing: border-box;\n}\n.weegle {\n    width: 400px;\n    display: block;\n    text-align: center;\n    margin: auto;\n}\n.search {\n    position: relative;\n    text-align: center;\n    width: 400px;\n    margin: 0 auto;\n}\ninput {\n    width: 100%;\n    border-radius: 20px;\n    border: 1px solid #bbb;\n    margin: 10px 0;\n    padding: 10px 12px;\n    font-family: fontAwesome;\n}\n.fa-search {\n    position: absolute;\n    left: 15px;\n    top: 20px;\n    margin: 0;\n}\n.fa-keyboard {\n    position: absolute;\n    right: 35px;\n    top: 20px;\n}\n.fa-microphone {\n    position: absolute;\n    right: 15px;\n    top: 20px;\n    color: blue;\n}\n.box {\n    display: inline;\n    width: auto;\n    border-radius: 0;\n    margin: auto;\n    text-align: center;\n    color: #bbb;\n}\n.mainLoginInput::-webkit-input-placeholder { \n\tfont-family: FontAwesome;\n\tfont-weight: normal;\n\toverflow: visible;\n\tvertical-align: top;\n\tdisplay: inline-block !important;\n\tpadding-left: 5px;\n\tpadding-top: 2px;\n\tcolor: hsl(9, 40%, 60%);\n\t}\n@__DEV__: true;",".app {\n  /* styles can be put here */\n}\n* {\n  box-sizing: border-box;\n}\n.weegle {\n  width: 400px;\n  display: block;\n  text-align: center;\n  margin: auto;\n}\n.search {\n  position: relative;\n  text-align: center;\n  width: 400px;\n  margin: 0 auto;\n}\ninput {\n  width: 100%;\n  border-radius: 20px;\n  border: 1px solid #bbb;\n  margin: 10px 0;\n  padding: 10px 12px;\n  font-family: fontAwesome;\n}\n.fa-search {\n  position: absolute;\n  left: 15px;\n  top: 20px;\n  margin: 0;\n}\n.fa-keyboard {\n  position: absolute;\n  right: 35px;\n  top: 20px;\n}\n.fa-microphone {\n  position: absolute;\n  right: 15px;\n  top: 20px;\n  color: blue;\n}\n.box {\n  display: inline;\n  width: auto;\n  border-radius: 0;\n  margin: auto;\n  text-align: center;\n  color: #bbb;\n}\n.mainLoginInput::-webkit-input-placeholder {\n  font-family: FontAwesome;\n  font-weight: normal;\n  overflow: visible;\n  vertical-align: top;\n  display: inline-block !important;\n  padding-left: 5px;\n  padding-top: 2px;\n  color: hsl(9, 40%, 60%);\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"app": "src_App_App_app",
+	"weegle": "src_App_App_weegle",
+	"search": "src_App_App_search",
+	"fa-search": "src_App_App_fa-search",
+	"fa-keyboard": "src_App_App_fa-keyboard",
+	"fa-microphone": "src_App_App_fa-microphone",
+	"box": "src_App_App_box",
+	"mainLoginInput": "src_App_App_mainLoginInput"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default, App, AppBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppBase", function() { return AppBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @enact/sandstone/ThemeDecorator */ "./node_modules/@enact/sandstone/ThemeDecorator/ThemeDecorator.js");
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enact/ui/Repeater */ "./node_modules/@enact/ui/Repeater/Repeater.js");
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Movies__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Movies */ "./src/components/Movies.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @enact/ui/Scroller */ "./node_modules/@enact/ui/Scroller/Scroller.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @enact/ui/BodyText */ "./node_modules/@enact/ui/BodyText/BodyText.js");
+/* harmony import */ var _enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_BodyText__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _enact_ui_IconButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @enact/ui/IconButton */ "./node_modules/@enact/ui/IconButton/IconButton.js");
+/* harmony import */ var _enact_ui_IconButton__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_IconButton__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _App_module_less__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./App.module.less */ "./src/App/App.module.less");
+/* harmony import */ var _App_module_less__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_App_module_less__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__);
+var _jsxFileName = "/home/huiju/lgwebos/src/App/App.js";
+
+
+
+
+
+
+
+
+
+const movies = ['1', '2', '3', '4'];
+const AppBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'App',
+  render: function (props) {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+      className: props.className,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("center", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("div", {
+            className: "search",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("i", {
+              className: "fas fa-search"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 21,
+              columnNumber: 7
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+              type: "text",
+              placeholder: "\uF002",
+              className: "temp"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 22,
+              columnNumber: 7
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("i", {
+              className: "fas fa-keyboard"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 23,
+              columnNumber: 7
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("i", {
+              className: "fas fa-microphone"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 24,
+              columnNumber: 7
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("input", {
+              type: "button",
+              className: "box",
+              value: "search"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 25,
+              columnNumber: 7
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 20,
+            columnNumber: 6
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default.a, {
+          childComponent: _components_Movies__WEBPACK_IMPORTED_MODULE_3__["movie"],
+          indexProp: "index",
+          children: movies
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_8__["jsxDEV"])("h2", {
+          children: "Categories"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 6
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 5
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 4
+    }, this);
+  }
+});
+const App = _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default()(AppBase);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ }),
+
+/***/ "./src/App/App.module.less":
+/*!*********************************!*\
+  !*** ./src/App/App.module.less ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./App.module.less */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/App/App.module.less");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./App.module.less */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/App/App.module.less",
+      function () {
+        content = __webpack_require__(/*! !../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-3-1!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src??postcss!../../../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js??ref--4-oneOf-3-3!./App.module.less */ "../../../usr/local/lib/node_modules/@enact/cli/node_modules/css-loader/dist/cjs.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/postcss-loader/src/index.js?!../../../usr/local/lib/node_modules/@enact/cli/node_modules/less-loader/dist/cjs.js?!./src/App/App.module.less");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ })
+
+})
+//# sourceMappingURL=main.2b3f18c3d4ca51c0b2b2.hot-update.js.mapÀ>=ß”q      `ö¡¥`ö¡¥C6¦›`ö¡¥   w    O^partitionKey=%28http%2C192.168.187.128%2C8080%29,:http://192.168.187.128:8080/main.2b3f18c3d4ca51c0b2b2.hot-update.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 17658
+ETag: W/"44fa-/MYAfkq9SEgzpbAcEFgPB2bALBw"
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Date: Tue, 20 Jul 2021 10:12:53 GMT
+ original-response-headers X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 17658
+ETag: W/"44fa-/MYAfkq9SEgzpbAcEFgPB2bALBw"
+Date: Tue, 20 Jul 2021 10:12:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+ ctid 2 uncompressed-len 0 net-response-time-onstart 8 net-response-time-onstop 9   Dú

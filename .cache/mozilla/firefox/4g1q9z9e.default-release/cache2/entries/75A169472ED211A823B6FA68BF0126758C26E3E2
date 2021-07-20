@@ -1,0 +1,159 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default, App, AppBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "App", function() { return App; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppBase", function() { return AppBase; });
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @enact/core/kind */ "./node_modules/@enact/core/kind/kind.js");
+/* harmony import */ var _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_enact_core_kind__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @enact/sandstone/ThemeDecorator */ "./node_modules/@enact/sandstone/ThemeDecorator/ThemeDecorator.js");
+/* harmony import */ var _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @enact/ui/Repeater */ "./node_modules/@enact/ui/Repeater/Repeater.js");
+/* harmony import */ var _enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Movies__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Movies */ "./src/components/Movies.js");
+/* harmony import */ var _components_Searches__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Searches */ "./src/components/Searches.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @enact/ui/Scroller */ "./node_modules/@enact/ui/Scroller/Scroller.js");
+/* harmony import */ var _enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Scroller__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _enact_ui_Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @enact/ui/Button */ "./node_modules/@enact/ui/Button/Button.js");
+/* harmony import */ var _enact_ui_Button__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Button__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _enact_ui_Icon__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @enact/ui/Icon */ "./node_modules/@enact/ui/Icon/Icon.js");
+/* harmony import */ var _enact_ui_Icon__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_enact_ui_Icon__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _App_module_less__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./App.module.less */ "./src/App/App.module.less");
+/* harmony import */ var _App_module_less__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_App_module_less__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__);
+var _jsxFileName = "/home/huiju/lgwebos/src/App/App.js";
+
+
+
+
+
+
+
+
+
+
+const movies = ['1', '2', '3', '4', '5', '6', '7', '8'];
+const AppBase = _enact_core_kind__WEBPACK_IMPORTED_MODULE_0___default()({
+  name: 'App',
+  styles: {
+    css: (_App_module_less__WEBPACK_IMPORTED_MODULE_8___default())
+  },
+  render: function (props) {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+      className: props.className,
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("center", {
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+            className: "search",
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("input", {
+              type: "text"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 28,
+              columnNumber: 7
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_enact_ui_Button__WEBPACK_IMPORTED_MODULE_6___default.a, {
+              iconComponent: _components_Searches__WEBPACK_IMPORTED_MODULE_4__["search"],
+              size: "test"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 29,
+              columnNumber: 7
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_enact_ui_Button__WEBPACK_IMPORTED_MODULE_6___default.a, {
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("img", {
+                src: "https://image.flaticon.com/icons/png/512/622/622669.png",
+                className: "test"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 30,
+                columnNumber: 15
+              }, this)
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 30,
+              columnNumber: 7
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("div", {
+              children: ["Icons made by ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("a", {
+                href: "https://www.flaticon.com/authors/pixel-perfect",
+                title: "Pixel perfect",
+                children: "Pixel perfect"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 31,
+                columnNumber: 26
+              }, this), " from ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])("a", {
+                href: "https://www.flaticon.com/",
+                title: "Flaticon",
+                children: "www.flaticon.com"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 31,
+                columnNumber: 128
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 31,
+              columnNumber: 7
+            }, this)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 27,
+            columnNumber: 6
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 6
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_9__["jsxDEV"])(_enact_ui_Repeater__WEBPACK_IMPORTED_MODULE_2___default.a, {
+          childComponent: _components_Movies__WEBPACK_IMPORTED_MODULE_3__["movie"],
+          indexProp: "index",
+          children: movies
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 6
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 5
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 4
+    }, this);
+  }
+});
+const App = _enact_sandstone_ThemeDecorator__WEBPACK_IMPORTED_MODULE_1___default()(AppBase);
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.5e6fb8967699c3aa9f8d.hot-update.js.mapÿkÆŽpÁ      `öÆ©`öÆ©C5ÖS`öÆ©   w    O^partitionKey=%28http%2C192.168.187.128%2C8080%29,:http://192.168.187.128:8080/main.5e6fb8967699c3aa9f8d.hot-update.js necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 8039
+ETag: W/"1f67-LLiHG1nDHeMystCv1HQU9pueOeo"
+Date: Tue, 20 Jul 2021 12:50:49 GMT
+ original-response-headers X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 8039
+ETag: W/"1f67-LLiHG1nDHeMystCv1HQU9pueOeo"
+Date: Tue, 20 Jul 2021 12:50:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+ ctid 2 uncompressed-len 0 net-response-time-onstart 30 net-response-time-onstop 32   g

@@ -1,0 +1,19 @@
+[directory]
+nautilus-icon-view-keep-aligned=true
+nautilus-desktop-icon-size=48
+nautilus-icon-view-layout-timestamp=1626789478
+
+[trash]
+nautilus-icon-position-timestamp=1626789478
+nautilus-icon-position=56,26
+icon-scale=1
+
+[VMware Tools.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1626697569
+
+[Ubuntu 18.04.5 LTS amd64.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1626750214

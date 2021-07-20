@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'cache', 'clean' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/huiju/.npmrc. (matches userconfig)
+5 silly ls normalized .
+6 silly gentlyRm /home/huiju/.npm/_cacache is being purged
+7 verbose gentlyRm don't care about contents; nuking /home/huiju/.npm/_cacache
+8 silly vacuum-fs purging /home/huiju/.npm/_cacache
+9 verbose stack Error: EACCES: permission denied, unlink '/home/huiju/.npm/_cacache/index-v5/a0/c6/040205eebe8a1469c51bd2cf204508de0c8c99d31041c9481a8f7a10adb3'
+10 verbose cwd /home/huiju
+11 error Linux 5.4.0-42-generic
+12 error argv "/usr/bin/node" "/usr/bin/npm" "cache" "clean"
+13 error node v8.10.0
+14 error npm  v3.5.2
+15 error path /home/huiju/.npm/_cacache/index-v5/a0/c6/040205eebe8a1469c51bd2cf204508de0c8c99d31041c9481a8f7a10adb3
+16 error code EACCES
+17 error errno -13
+18 error syscall unlink
+19 error Error: EACCES: permission denied, unlink '/home/huiju/.npm/_cacache/index-v5/a0/c6/040205eebe8a1469c51bd2cf204508de0c8c99d31041c9481a8f7a10adb3'
+19 error  { Error: EACCES: permission denied, unlink '/home/huiju/.npm/_cacache/index-v5/a0/c6/040205eebe8a1469c51bd2cf204508de0c8c99d31041c9481a8f7a10adb3'
+19 error   errno: -13,
+19 error   code: 'EACCES',
+19 error   syscall: 'unlink',
+19 error   path: '/home/huiju/.npm/_cacache/index-v5/a0/c6/040205eebe8a1469c51bd2cf204508de0c8c99d31041c9481a8f7a10adb3' }
+20 error Please try running this command again as root/Administrator.
+21 verbose exit [ -13, true ]
